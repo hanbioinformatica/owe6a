@@ -1,2 +1,5 @@
 # owe6a
-Datastructuren algoritment
+Datastructuren en algoritmen
+
+Code gebruikt bij owe6a informatica
+(c) Martijn van der Bruggen/HAN University
