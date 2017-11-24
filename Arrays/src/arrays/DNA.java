@@ -9,7 +9,8 @@ package arrays;
  *
  * @author martijn
  */
-public class DNA implements Comparable {
+public class DNA implements Comparable 
+{
 
     private String sequence;
 
@@ -39,7 +40,15 @@ public class DNA implements Comparable {
     @Override
     public int compareTo(Object o) {
         DNA d = (DNA) o;
-        return this.sequence.compareTo(d.sequence);
+        if (this.getGC() < d.getGC()) {
+            return -1;
+        } else if (this.getGC() > d.getGC()) {
+            return +1;
+        } else {
+            return 0;
+        }
+
+        //return this.sequence.compareTo(d.sequence);
     }
 
 }

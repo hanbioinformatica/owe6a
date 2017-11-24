@@ -13,6 +13,8 @@ import java.util.Collections;
  * @author martijn
  */
 public class DNAapp {
+    
+    
 
     public static void main(String[] args) {
         DNA d1 = new DNA("ATGGAGACCACCACA");
