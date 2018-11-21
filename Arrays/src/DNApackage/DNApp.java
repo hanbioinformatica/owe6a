@@ -1,15 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package DNApackage;
 
 import java.util.*;
 
 /**
- *
- * @author martijn
+ * @author Martijn van der Bruggen
+ * @version 22 november 2018
+ * (c) HAN University 
+ * Instituut Toegepaste Biologie en Chemie
+ * Bio-informatica
+ * 
  */
 public class DNApp {
 
