@@ -1,5 +1,12 @@
 package bracketchecker;
-
+/**
+ * @author Martijn van der Bruggen
+ * @version 22 november 2018
+ * (c) HAN University 
+ * Instituut Toegepaste Biologie en Chemie
+ * Bio-informatica
+ * Voorbeeld van een Stack implementatie
+ */
 class Stack {
   private int maxSize;
 

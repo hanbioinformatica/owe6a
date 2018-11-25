@@ -1,8 +1,15 @@
 package linkedlist;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
+/**
+ * @author Martijn van der Bruggen
+ * @version 25 november 2018
+ * (c) HAN University 
+ * Instituut Toegepaste Biologie en Chemie
+ * Bio-informatica
+ * 
+ */
 
 class DemoLinkedListVsArrayList {
 

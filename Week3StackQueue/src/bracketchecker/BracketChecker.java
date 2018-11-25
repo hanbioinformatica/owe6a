@@ -1,7 +1,14 @@
 package bracketchecker;
 
 import java.io.IOException;
-
+/**
+ * @author Martijn van der Bruggen
+ * @version 22 november 2018
+ * (c) HAN University 
+ * Instituut Toegepaste Biologie en Chemie
+ * Bio-informatica
+ * 
+ */
 public class BracketChecker {
 
     private String input;
