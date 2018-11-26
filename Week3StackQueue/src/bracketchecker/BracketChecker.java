@@ -1,23 +1,18 @@
 package bracketchecker;
 
 import java.io.IOException;
+
 /**
  * @author Martijn van der Bruggen
- * @version 22 november 2018
- * (c) HAN University 
- * Instituut Toegepaste Biologie en Chemie
- * Bio-informatica
- * 
+ * @version 22 november 2018 (c) HAN University Instituut Toegepaste Biologie en
+ * Chemie Bio-informatica
+ *
  */
 public class BracketChecker {
 
-    private String input;
 
-    public BracketChecker(String in) {
-        input = in;
-    }
 
-    public void check() {
+    public static void check(String input) {
         int stackSize = input.length();
         Stack theStack = new Stack(stackSize);
 
@@ -54,9 +49,8 @@ public class BracketChecker {
     }
 
     public static void main(String[] args) throws IOException {
-        String input = "{(9+9)[432]{((329321)}}";
-        System.out.println(input);
-        BracketChecker theChecker = new BracketChecker(input);
-        theChecker.check();
+        String invoer = "{(9+9)[432]{(329321}}";
+        System.out.println(invoer);
+        check(invoer);
     }
 }
