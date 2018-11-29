@@ -12,7 +12,7 @@ public class StackReverse {
 
     public static void main(String[] args) {
 
-        final String inputString = "code review";
+        final String inputString = "hello";
 
         final String reversed = reverseString(inputString);
         System.out.println("The reversed string is " + reversed);
