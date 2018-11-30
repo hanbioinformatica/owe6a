@@ -1,12 +1,11 @@
 package boom;
 
-// Voorbeeld 6.1a Boomwandeling
-import java.util.*;
 
-public class Vb0601a {
+
+public class BoomDoorlopen {
   public static void main( String args[] ) {
-      BinNode<String> root;
-    BKnoop_1 <String> knoopB, knoopC, knoopD,
+    BinNode<String> root;
+    BinNode<String> knoopB, knoopC, knoopD,
                    knoopE, knoopF, knoopG;
 
     // Maak eerst alle knopen

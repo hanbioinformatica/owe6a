@@ -1,9 +1,7 @@
 package boom;
 
-// Voorbeeld 6.1 Boom met BKnoop
-import java.util.*;
 
-public class Vb0601 {
+public class BasisBoom {
   public static void main( String args[] ) {
     BKnoop<String> root, knoopB, knoopC, knoopD,
                    knoopE, knoopF, knoopG;
