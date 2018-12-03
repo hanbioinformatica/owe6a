@@ -72,7 +72,6 @@ public class BinNode<E> {
         if (rightChild != null) {
             rightChild.inOrder();
         }
-
     }
 
     public String levelOrderToString() {
@@ -133,14 +132,12 @@ public class BinNode<E> {
             throw new IllegalArgumentException(
                     "Index moet 0 of 1 zijn");
         }
-
         if (newChild != null) {
             BinNode<E> oldParent = newChild.getParent();
             if (oldParent != null) {
                 oldParent.remove(newChild);
             }
         }
-
         newChild.parent = this;
         if (childIndex == LEFT) {
             leftChild = newChild;

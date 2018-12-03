@@ -1,10 +1,10 @@
 package huffman;
 
-/*
- * A HuffMannNode is a node that will be part of the HuffMannTree
- * It contains the character, the number of times the character is present in the text
- * The bitstring that will be used to represent the charachter 
- **/
+/**
+ * A HuffMannNode is a node that will be part of the HuffMannTree It contains
+ * the character, the number of times the character is present in the text The
+ * bitstring that will be used to represent the charachter
+ */
 public class HuffMannNode implements Comparable {
 
     private HuffMannNode leftSubTreeNode;
@@ -62,6 +62,7 @@ public class HuffMannNode implements Comparable {
         return this.character;
     }
 
+    @Override
     public int compareTo(Object objOtherNode) {
         HuffMannNode otherNode = (HuffMannNode) objOtherNode;
         if (this.frequence < otherNode.getFrequence()) {
@@ -114,12 +115,12 @@ public class HuffMannNode implements Comparable {
         }
     }
 
-    /*
-   * Static method.
-   * 
-   * Find the string for a specific bit combination.
-   * Also pass the root of the huffmann tree.
-   * */
+    /**
+     * Static method.
+     *
+     * Find the string for a specific bit combination. Also pass the root of the
+     * huffmann tree.
+     */
     public static String decodeBitstring(String bitstring, HuffMannNode root) {
         StringBuffer result = new StringBuffer();
         StringBuffer bitstringStringBuffer = new StringBuffer(bitstring);
