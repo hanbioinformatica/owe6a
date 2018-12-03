@@ -3,6 +3,7 @@ package huffman;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.List;
@@ -62,14 +63,13 @@ public class HuffmanCompressie {
         return listHuffMannNodes;
     }
 
-    private static void readDataFromFile() {
+    private static void readDataFromFile(String naamBestand) {
         BufferedReader in = null;
         String line;
         stringBuffer = new StringBuffer();
-
         //First read the data out of a file named 'data.txt' 
         try {
-            in = new BufferedReader(new FileReader("C:\\Users\\Martijn\\Documents\\NetBeansProjects\\owe6a\\Week4Trees\\src\\huffman\\data.txt"));
+            in = new BufferedReader(new FileReader(naamBestand));
             while ((line = in.readLine()) != null) {
                 stringBuffer.append(line);
                 System.out.println("Read line from file: " + stringBuffer.toString());
@@ -135,6 +135,7 @@ public class HuffmanCompressie {
 
         System.out.println("The compressed BitSet consists of : " + bitSetCompressed.length() + " bits");
         System.out.println("The original text consists of : " + stringBuffer.length() * 8 + " bits");
+        System.out.println(bitSetCompressed);
     }
 
     public static void uncompressText() {
@@ -172,13 +173,27 @@ public class HuffmanCompressie {
 
     }
 
+    public static StringBuilder getBinaryData() {
+        StringBuilder s = new StringBuilder();
+        for (int i = 1; i < bitSetCompressed.length(); i++) {
+            s.append(bitSetCompressed.get(i) == true ? 1 : 0);
+        }
+        return s;
+    }
+
     public static void main(String args[]) {
-        readDataFromFile();
+
+        String currentDir = System.getProperty("user.dir") + File.separator + "src" + File.separator + "huffman" + File.separator;
+        String naam = "data.txt";
+        System.out.println("Current dir using System:" + currentDir);
+        readDataFromFile(currentDir + naam);
         Map map = initializeMap(stringBuffer);
         List listHuffMannNodes = createHuffMannNodes(map);
         createHuffMannTree(listHuffMannNodes);
-
         compressText();
-        uncompressText();
+        System.out.println(getBinaryData());
+
+        
+        //uncompressText();
     }
 }
