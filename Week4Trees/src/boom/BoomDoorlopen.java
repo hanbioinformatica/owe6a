@@ -26,7 +26,7 @@ public class BoomDoorlopen {
 
     knoopE.add( knoopF );
     knoopE.add( knoopG );
-    //System.out.println( root.preOrderToString() );
+    System.out.println( root.preOrderToString() );
     
     //knoopC.insert( knoopE, BKnoop.LEFT );
     //System.out.println( root.preOrderToString() );

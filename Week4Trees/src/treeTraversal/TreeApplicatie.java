@@ -26,12 +26,10 @@ public class TreeApplicatie {
 
         knoopE.add(knoopF);
         knoopE.add(knoopG);
-        System.out.println( root.preOrderToString() );
-        //System.out.println( root.postOrderToString() );
-        
 
-        //knoopC.insert( knoopE, BKnoop.LEFT );
-        //System.out.println( root.preOrderToString() );
-        //System.out.println(root.levelOrderToString());
+        System.out.println(root.preOrderToString());
+        System.out.println(root.postOrderToString());
+        System.out.println(root.inOrderToString());
+        System.out.println(root.levelOrderToString());
     }
 }

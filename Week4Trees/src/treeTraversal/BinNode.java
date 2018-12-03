@@ -2,7 +2,6 @@ package treeTraversal;
 
 // Klasse voor een knoop voor een binaire boom
 // Met boomwandelingen pre-order en level-order
-import boom.*;
 import java.util.*;
 
 public class BinNode<E> {
@@ -78,7 +77,6 @@ public class BinNode<E> {
 
     public String levelOrderToString() {
         buffer = new StringBuffer();
-        //q = new ArrayDeque< BKnoop<E> >();
         q = new LinkedList<BinNode<E>>();
         q.add(this);
         levelOrder();
