@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sets;
 
 /**
@@ -10,5 +5,10 @@ package sets;
  * @author martijn
  */
 public class Student {
+    
+    String studie;
+    String voornaam;
+    int studentNummer;
+    
     
 }

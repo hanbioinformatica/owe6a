@@ -3,7 +3,7 @@ package sets;
 // Voorbeeld 0805  HashSet
 import java.util.*;
 
-public class Vb0805 {
+public class DemoHashSet {
   public static void main( String args[] ) {
     HashSet<String> groep1, groep2, doorsnede, vereniging,
                 verschil1, verschil2, symVerschil;

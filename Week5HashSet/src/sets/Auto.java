@@ -1,24 +1,42 @@
 package sets;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
  *
- * @author Martijn van der Bruggen (c) Hogeschool van Arnhem en Nijmegen
+ * @author Martijn van der Bruggen (c) Hogeschool van Arnhem en Nijmegen d.d. 10
+ * december aanpassing aan hashCode
  *
  */
-public class Auto implements Comparable {
+public final class Auto {
 
     protected String eigenaar;
     protected String kleur;
-    protected int pk;
+    private String merk;
+    private int bouwjaar;
 
-    Auto(String e, String k, int p) {
+    Auto(String e, String k, String merk, int b) {
         setEigenaar(e);
         setKleur(k);
-        setPk(p);
+        setMerk(merk);
+        setBouwjaar(b);
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        //hash = 83 * hash + (this.eigenaar != null ? this.eigenaar.hashCode() : 0);
+        hash = 83 * hash + (this.kleur != null ? this.kleur.hashCode() : 0);
+        //hash = 83 * hash + this.pk;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return this.hashCode() == o.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return eigenaar + " " + kleur + " pks:";
     }
 
     public String getEigenaar() {
@@ -37,52 +55,32 @@ public class Auto implements Comparable {
         this.kleur = kleur;
     }
 
-    /*public int compareTo(Object x) {
-     Auto a = (Auto) x;
-     if (a.getEigenaar().length() > this.getEigenaar().length()) {
-     return -1;
-     } else if (a.getEigenaar().length() < this.getEigenaar().length()) {
-     return +1;
-     } else {
-     return 0;
-     }
-     }
+    /**
+     * @return the merk
      */
-    public int compareTo(Object x) {
-        Auto a = (Auto) x;
-        if (a.getPk() < this.getPk()) {
-            return +1;
-        } else if (a.getPk() > this.getPk()) {
-            return -1;
-        } else {
-            return 0;
-        }
+    public String getMerk() {
+        return merk;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 3;
-        //hash = 83 * hash + (this.eigenaar != null ? this.eigenaar.hashCode() : 0);
-        //hash = 83 * hash + (this.kleur != null ? this.kleur.hashCode() : 0);
-        hash = 83 * hash + this.pk;
-        return hash;
+    /**
+     * @param merk the merk to set
+     */
+    public void setMerk(String merk) {
+        this.merk = merk;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        return this.hashCode()==o.hashCode();
+    /**
+     * @return the bouwjaar
+     */
+    public int getBouwjaar() {
+        return bouwjaar;
     }
 
-    @Override
-    public String toString() {
-        return eigenaar + " " + kleur + " pks:" + Integer.toString(pk);
+    /**
+     * @param bouwjaar the bouwjaar to set
+     */
+    public void setBouwjaar(int bouwjaar) {
+        this.bouwjaar = bouwjaar;
     }
 
-    public int getPk() {
-        return pk;
-    }
-
-    public void setPk(int pk) {
-        this.pk = pk;
-    }
 }

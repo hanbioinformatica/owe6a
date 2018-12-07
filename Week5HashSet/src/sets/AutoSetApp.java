@@ -17,16 +17,16 @@ public class AutoSetApp {
 
     public static void main(String[] args) {
         autoos1 = new HashSet<Auto>();
-        autoos1.add(new Auto("Julian", "blauw", 5000));
-        autoos1.add(new Auto("Valerie", "blauw", 5));
-        autoos1.add(new Auto("Sjors", "groen", 420));
-        autoos1.add(new Auto("Merijn", "geel", 5));
+        autoos1.add(new Auto("Julian", "blauw", "VW",1980));
+        autoos1.add(new Auto("Valerie", "blauw", "Ferrari", 5));
+        autoos1.add(new Auto("Sjors", "groen","VW", 420));
+        autoos1.add(new Auto("Merijn", "geel", "VW",5));
 
         autoos2 = new HashSet<Auto>();
-        autoos2.add(new Auto("Anne", "Turquoise", 350));
-        autoos2.add(new Auto("Ruben", "zwart", 100));
-        autoos2.add(new Auto("Sjors", "groen", 420));
-        autoos2.add(new Auto("Merijn", "geel", 5));
+        autoos2.add(new Auto("Anne", "Turquoise","VW", 350));
+        autoos2.add(new Auto("Ruben", "zwart", "VW",100));
+        autoos2.add(new Auto("Sjors", "groen", "VW", 420));
+        autoos2.add(new Auto("Merijn", "geel", "VW", 5));
 
         System.out.println(autoos1);
         System.out.println(autoos2);
