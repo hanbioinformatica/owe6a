@@ -1,5 +1,8 @@
 package lzw;
 
+/**
+ * d.d. 12 december 2018 MvdB Aanpassing om bestand te vinden in src directory
+ */
 import java.io.*;
 import java.util.*;
 
@@ -16,10 +19,14 @@ public class Compress {
     static BufferedInputStream in;
     static BufferedOutputStream out;
 
+    public static String getPath() {
+        String currentDir = System.getProperty("user.dir") + File.separator + "src" + File.separator + "lzw" + File.separator;
+        return currentDir;
+    }
+
     private static void setFiles() throws IOException {
         String inputFile, outputFile;
-
-        inputFile = "/home/martijn/Dropbox/han/courses/jaar2/owe6/informatica/code/HashMap/src/lzw/file.txt";
+        inputFile = getPath() + "file.txt";
         in = new BufferedInputStream(new FileInputStream(inputFile));
         outputFile = inputFile + ".zzz";
         out = new BufferedOutputStream(new FileOutputStream(outputFile));
@@ -42,9 +49,9 @@ public class Compress {
     }
 
     private static void compress() throws IOException {
-        Hashtable table = new Hashtable();
+        Map table = new HashMap();
         for (int i = 0; i < ALPHA; i++) {
-            table.put(new Integer(i), new Integer(i));
+            table.put(i, i);
         }
 
         int codeUsed = ALPHA;
@@ -55,15 +62,15 @@ public class Compress {
             c = in.read();
             while (c != -1) {
                 int k = (pcode << BYTE_SIZE) + c;
-                Integer e = (Integer) table.get(new Integer(k));
+                Integer e = (Integer) table.get(k);
                 if (e == null) {
                     output(pcode);
                     if (codeUsed < MAX_CODES) {
-                        table.put(new Integer((pcode << BYTE_SIZE) + c), new Integer(codeUsed++));
+                        table.put((pcode << BYTE_SIZE) + c, codeUsed++);
                     }
                     pcode = c;
                 } else {
-                    pcode = e.intValue();
+                    pcode = e;
                 }
                 c = in.read();
             }

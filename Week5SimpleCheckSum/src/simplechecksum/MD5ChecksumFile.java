@@ -40,9 +40,9 @@ public class MD5ChecksumFile {
     String currentDir = System.getProperty("user.dir") + File.separator + "src" + File.separator + "simplechecksum" + File.separator;
         String naam = "drosoph.nt.gz";
         System.out.println("Current dir using System:" + currentDir);
-        return currentDir+naam;
-        
+        return currentDir+naam;   
     }
+    
     // see this How-to for a faster way to convert
     // a byte array to a HEX string
     public static String getMD5Checksum(String filename) throws Exception {
