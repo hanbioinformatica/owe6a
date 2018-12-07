@@ -14,7 +14,7 @@ import java.util.*;
 public class HashMapDemo {
 
     public static void main(String[] args) {
-        HashMap<String, String> hm = new HashMap<String, String>(10);
+        Map<String, String> hm = new HashMap<String, String>(10);
         hm.put("Milo", "06-873287234");
         hm.put("Mark", "06-218734");
         hm.put("Tijs", "98341243");
