@@ -20,8 +20,7 @@ public class Compress {
     static BufferedOutputStream out;
 
     public static String getPath() {
-        String currentDir = System.getProperty("user.dir") + File.separator + "src" + File.separator + "lzw" + File.separator;
-        return currentDir;
+        return System.getProperty("user.dir") + File.separator + "src" + File.separator + "lzw" + File.separator;
     }
 
     private static void setFiles() throws IOException {
