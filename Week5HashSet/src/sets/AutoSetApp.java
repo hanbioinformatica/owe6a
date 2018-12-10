@@ -17,16 +17,20 @@ public class AutoSetApp {
 
     public static void main(String[] args) {
         autoos1 = new HashSet<Auto>();
-        autoos1.add(new Auto("Julian", "blauw", "VW",1980));
-        autoos1.add(new Auto("Valerie", "blauw", "Ferrari", 5));
-        autoos1.add(new Auto("Sjors", "groen","VW", 420));
-        autoos1.add(new Auto("Merijn", "geel", "VW",5));
+        autoos1.add(new Auto("Evander","rood","Suzuki",2002));
+        autoos1.add(new Auto("Carlijn","oranje","VW",2012));
+        autoos1.add(new Auto("Cas","groen","Ferrari",2020));
+        
+        
+
 
         autoos2 = new HashSet<Auto>();
-        autoos2.add(new Auto("Anne", "Turquoise","VW", 350));
-        autoos2.add(new Auto("Ruben", "zwart", "VW",100));
-        autoos2.add(new Auto("Sjors", "groen", "VW", 420));
-        autoos2.add(new Auto("Merijn", "geel", "VW", 5));
+        autoos2.add(new Auto("Anne","turquoise","Citroen",1234));
+        autoos2.add(new Auto("Valerie","rood","Mini Cooper",2008));
+        autoos2.add(new Auto("Carleen","geel","Opel",2000));
+        autoos2.add(new Auto("Cas","blauwe","Maseratti",2001));
+        
+        
 
         System.out.println(autoos1);
         System.out.println(autoos2);
@@ -37,8 +41,8 @@ public class AutoSetApp {
         System.out.println(verschil1);
 
         HashSet overeenkomst = new HashSet<Auto>(autoos1);
-        overeenkomst.retainAll(autoos2);
-        System.out.println("Overeenkomst");
+        overeenkomst.addAll(autoos2);
+        System.out.println("Add");
         System.out.println(overeenkomst);
     }
 }
