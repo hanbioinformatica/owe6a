@@ -112,8 +112,8 @@ public class MD5 {
 
     public static void main(String[] args) {
         String[] testStrings = {"Hello World!",
-             "HAN Bioinformatica",
-             "Ook langere strings krijgen eenzelfde lengte mee als MD5 checksum",
+             "Hello World!",
+             "Hallo World!",
              "en korte"};
         for (String s : testStrings) {
             System.out.println("0x" + toHexString(computeMD5(s.getBytes()))
