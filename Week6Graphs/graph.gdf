@@ -1,0 +1,15 @@
+nodedef> name,label,style,distance INTEGER
+v0,'A',6,2147483647
+v1,'B',6,2147483647
+v2,'C',6,2147483647
+v3,'D',6,2147483647
+v4,'E',6,2147483647
+v5,'G',6,2147483647
+v6,'H',6,2147483647
+edgedef> node1,node2,color
+v0,v1,gray
+v0,v2,gray
+v2,v3,gray
+v3,v4,gray
+v3,v5,gray
+v4,v5,gray
