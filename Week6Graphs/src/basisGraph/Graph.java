@@ -239,7 +239,7 @@ public class Graph {
             }
             out.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("IO error");
         }
 
     }

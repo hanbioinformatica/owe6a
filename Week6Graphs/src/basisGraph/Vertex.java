@@ -63,6 +63,7 @@ public class Vertex implements Comparable<Vertex> {
 		return name.hashCode();
 	}
 	
+        @Override
 	public String toString()
 	{ 
 		return name;
