@@ -253,9 +253,10 @@ public class Graph {
         G.addEdge("D", "G");
         G.addEdge("E", "G");
         G.addVertex("H");
-        System.out.println(G.escapedVersion("Bacon, Kevin"));
+        G.addEdge("A", "H");
+        
         // print out graph
-        System.out.println(G);
+        //System.out.println(G);
 
         // print out graph again by iterating over vertices and edges
         for (Vertex v : G.getVertices()) {

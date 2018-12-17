@@ -9,6 +9,7 @@ v6,'H',6,2147483647
 edgedef> node1,node2,color
 v0,v1,gray
 v0,v2,gray
+v0,v6,gray
 v2,v3,gray
 v3,v4,gray
 v3,v5,gray
