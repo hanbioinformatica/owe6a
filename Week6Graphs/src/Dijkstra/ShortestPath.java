@@ -3,15 +3,11 @@ package Dijkstra;
 /**
  * https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
  *
- * @version 22 november 2018 (c) HAN University Instituut Toegepaste Biologie en
- * Chemie Bio-informatica
+
  *
  */
 // A Java program for Dijkstra's single source shortest path algorithm. 
 // The program is for adjacency matrix representation of the graph 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class ShortestPath {
     // A utility function to find the vertex with minimum distance value, 

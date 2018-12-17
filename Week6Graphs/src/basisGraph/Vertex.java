@@ -1,12 +1,8 @@
 package basisGraph;
 
 /**
- * @author Martijn van der Bruggen
- * @version Dec 14, 2018
- * (c) HAN University 
- * Instituut Toegepaste Biologie en Chemie
- * Bio-informatica
- * 
+ * Robert Sedgewick and Kevin Wayne
+ * I
  */
 
 /**
@@ -61,6 +57,7 @@ public class Vertex implements Comparable<Vertex> {
 	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
+        @Override
 	public int hashCode()
 	{
 		return name.hashCode();
