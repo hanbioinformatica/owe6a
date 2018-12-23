@@ -20,7 +20,7 @@ public class Lijn extends Thread {
     static int lengte = 100;
     Graphics g;
     JLabel info;
-
+    static final int stapgrootte = 1;
     Color kleur = Color.blue;
 
     public Lijn(int nummer, Graphics gg, JLabel jl) {
@@ -38,20 +38,22 @@ public class Lijn extends Thread {
         }
     }
 
+    public void tekenHetDan() {
+        x1 += stapgrootte;
+        g.fillRect(x1, y1, stapgrootte, 5);
+        info.setText("Thread: " + lijnNummer);
+        sleep(500);
+    }
+
     public void drawLine() {
         g.setColor(kleur);
-        info.setText("Thread: " + lijnNummer);
         for (int i = 0; i < lengte; i++) {
-            x1 += 1;
-            g.fillRect(x1, y1, 1, 5);
-            sleep(10);
+            tekenHetDan();
         }
     }
-    
 
-    public void run(){
+    public void run() {
         drawLine();
-        System.out.println("Doe het!");
     }
 
 }

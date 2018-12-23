@@ -2,13 +2,15 @@ package threadGUI;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
  * @author Martijn van der Bruggen
  * @version Dec 23, 2018 (c) HAN University Instituut Toegepaste Biologie en
- * Chemie Bio-informatica
+ * Chemie Bio-informatica Voorbeeld programma waarin gebruik wordt gemaakt van
+ * threads
  *
  */
 public class ThreadGUI extends javax.swing.JFrame {
@@ -16,6 +18,8 @@ public class ThreadGUI extends javax.swing.JFrame {
     /**
      * Creates new form ThreadGUI
      */
+    ArrayList<Lijn> lijnenLijst;
+
     public ThreadGUI() {
         initComponents();
         jPanel1.setBackground(Color.yellow);
@@ -91,20 +95,23 @@ public class ThreadGUI extends javax.swing.JFrame {
         jLabel1.setText("Thread # " + t);
     }
 
-    private void tekenProces(int nummer) {
-        Graphics g = jPanel1.getGraphics();
-        Lijn l1 = new Lijn(nummer, g, jLabel1);
-        System.out.println("Call");
-        l1.start();
-
+    private void maakThreadArrayList(int aantal) {
+        lijnenLijst = new ArrayList<Lijn>();
+        for (int i = 0; i < aantal; i++) {
+            Graphics g = jPanel1.getGraphics();
+            lijnenLijst.add(new Lijn(i, g, jLabel1));
+            System.out.println("Call");
+        }
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        tekenProces(1);
-        tekenProces(2);
-        tekenProces(3);
-        tekenProces(4);
-
+        maakThreadArrayList(5);
+        lijnenLijst.get(1).kleur = Color.red;
+        lijnenLijst.get(2).kleur = Color.WHITE;
+        
+        for (Lijn l : lijnenLijst) {
+            l.start();
+        }
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
