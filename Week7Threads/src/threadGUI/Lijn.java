@@ -15,16 +15,16 @@ import javax.swing.JLabel;
 public class Lijn extends Thread {
 
     int lijnNummer = 0;
-    static int x1 = 10;
+    static int xPositie = 10;
     int y1 = 0;
     static int lengte = 100;
-    Graphics g;
+    Graphics graphicsPanelObject;
     JLabel info;
-    static final int stapgrootte = 1;
+    static final int STAPGROOTTE = 1;
     Color kleur = Color.blue;
 
     public Lijn(int nummer, Graphics gg, JLabel jl) {
-        g = gg;
+        graphicsPanelObject = gg;
         info = jl;
         lijnNummer = nummer; //threadnummer
         y1 = 20 + lijnNummer * 20; // Positie op y-as
@@ -39,14 +39,15 @@ public class Lijn extends Thread {
     }
 
     public void tekenHetDan() {
-        x1 += stapgrootte;
-        g.fillRect(x1, y1, stapgrootte, 5);
+        xPositie += STAPGROOTTE;
+        graphicsPanelObject.fillRect(xPositie, y1, STAPGROOTTE, 5);
+        info.setForeground(kleur);
         info.setText("Thread: " + lijnNummer);
         sleep(500);
     }
 
     public void drawLine() {
-        g.setColor(kleur);
+        graphicsPanelObject.setColor(kleur);
         for (int i = 0; i < lengte; i++) {
             tekenHetDan();
         }
