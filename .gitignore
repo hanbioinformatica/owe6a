@@ -31,3 +31,8 @@ nbproject/private/*
 *~
 *.log
 *private.xml
+/Week5SimpleCheckSum/build/
+/Week5HashMap/build/
+/Week5HashSet/build/
+/Week6Graphs/build/
+/Week7Threads/build/
