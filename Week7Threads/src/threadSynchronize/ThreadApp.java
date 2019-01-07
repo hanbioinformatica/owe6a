@@ -2,7 +2,6 @@ package threadSynchronize;
 
 import static java.lang.Thread.sleep;
 
-
 public class ThreadApp {
 
     public static void main(String args[]) {
@@ -16,12 +15,8 @@ public class ThreadApp {
                 //go.join();
                 sleep((int) (Math.random() * 1000));
             } catch (InterruptedException ex) {
-            
+
             }
-            
-
-                
-
         }
 
     }

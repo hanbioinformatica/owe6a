@@ -6,10 +6,12 @@
         <group>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadSynchronize/ThreadApp.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadSynchronize/GeldOpname.java</file>
+            <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadInterface/ThreadInterfaceApp.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadGUI/Lijn.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadSynchronize/ConcurrencyProblem.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threads/ThreadApp.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadGUI/ThreadGUI.java</file>
+            <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threadInterface/SimpleRunnableThread.java</file>
             <file>file:/home/martijn/NetBeansProjects/owe6a/Week7Threads/src/threads/SimpleThread.java</file>
         </group>
     </open-files>

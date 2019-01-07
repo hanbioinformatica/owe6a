@@ -37,11 +37,11 @@ public class ConcurrencyProblem {
         System.out.println(array[0]);
     }
 
-    public static void increase() {
+    public synchronized static void increase() {
         array[0]++;
     }
 
-    public static void decrease() {
+    public synchronized static void decrease() {
         array[0]--;
     }
 }

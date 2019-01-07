@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 /**
  * @author Martijn van der Bruggen
  * @version Dec 23, 2018 (c) HAN University Instituut Toegepaste Biologie en
@@ -101,7 +102,7 @@ public class ThreadGUI extends javax.swing.JFrame {
         for (int i = 0; i < aantal; i++) {
             Graphics g = jPanel1.getGraphics();
             lijnenLijst.add(new Lijn(i, g, jLabel1));
-            System.out.println("Call");
+            System.out.println("Call van "+Integer.toString(i));
         }
     }
 
@@ -116,7 +117,6 @@ public class ThreadGUI extends javax.swing.JFrame {
         for (Lijn l : lijnenLijst) {
             l.start();
         }
-
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

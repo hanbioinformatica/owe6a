@@ -43,7 +43,7 @@ public class Lijn extends Thread {
         graphicsPanelObject.fillRect(xPositie, y1, STAPGROOTTE, 5);
         info.setForeground(kleur);
         info.setText("Thread: " + lijnNummer);
-        sleep(500);
+        sleep(50);
     }
 
     public void drawLine() {
