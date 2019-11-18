@@ -1,4 +1,4 @@
-package DNApackage;
+package dna;
 
 
 /**

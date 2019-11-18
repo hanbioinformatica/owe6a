@@ -1,7 +1,6 @@
-package sorting;
+package sortingCars;
 
 
-import sorting.Auto;
 import java.util.ArrayList;
 import java.util.Collections;
 

@@ -1,5 +1,5 @@
 
-package DNApackage;
+package dna;
 
 import java.util.*;
 

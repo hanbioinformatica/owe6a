@@ -2,7 +2,7 @@
  * 
  * http://www.idevelopment.info/data/Programming/java/PROGRAMMING_Java_Programming.shtml
  */
-package arrays;
+package arrayBasis;
 
 /**
  *
