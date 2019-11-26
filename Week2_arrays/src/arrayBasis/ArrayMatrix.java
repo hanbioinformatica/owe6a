@@ -1,7 +1,6 @@
 package arrayBasis;
 
 /**
- *
  * @author Martijn
  */
 public class ArrayMatrix {
@@ -9,7 +8,7 @@ public class ArrayMatrix {
     static int[][] arr; //declaratie
 
     public static void initMatrix() {
-        
+
     }
 
     public static void startMatrix() {

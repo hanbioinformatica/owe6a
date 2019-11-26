@@ -22,12 +22,12 @@ public class Array1 {
         // Array declaratie en creatie van object in twee stappen
 
        int[] intArray = {2, 3, 5, 7, 11};
-////        for (int i:intArray){
-////            System.out.println(i);
-////        }
-////        for (int i=0;i<intArray.length;i++){
-////            System.out.println(intArray[i]);
-////        }
+        for (int i:intArray){
+            System.out.println(i);
+        }
+        for (int i=0;i<intArray.length;i++){
+            System.out.println(intArray[i]);
+        }
 
         // Array declaratie en creatie van object in een stap
         // Array declaratie, constructie en initialisatie in een stap

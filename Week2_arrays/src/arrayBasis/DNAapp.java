@@ -9,12 +9,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- *
  * @author martijn
  */
 public class DNAapp {
-    
-    
+
 
     public static void main(String[] args) {
         DNA d1 = new DNA("ATGGAGACCACCACA");
@@ -24,7 +22,7 @@ public class DNAapp {
         DNA d5 = new DNA("GCCCACACCACCCCACACACACACACA");
         DNA d6 = new DNA("GCCC");
         System.out.println(d2);
-        
+
         ArrayList<DNA> dnalist = new ArrayList();
         dnalist.add(d1);
         dnalist.add(d2);
@@ -36,10 +34,10 @@ public class DNAapp {
         System.out.println(dnalist);
         dnalist.sort(null);
         System.out.println(dnalist);
-        
+
         Collections.reverse(dnalist);
         System.out.println(dnalist);
-        
+
 
     }
 

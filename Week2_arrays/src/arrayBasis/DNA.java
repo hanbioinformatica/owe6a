@@ -6,11 +6,9 @@
 package arrayBasis;
 
 /**
- *
  * @author martijn
  */
-public class DNA implements Comparable 
-{
+public class DNA implements Comparable {
 
     private String sequence;
 
