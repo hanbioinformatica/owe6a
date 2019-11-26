@@ -1,12 +1,14 @@
+package LinkedList;
+
 import java.util.*;
 
 /**
  * @author Martijn van der Bruggen
  * @version 25 november 2018
- * (c) HAN University 
+ * (c) HAN University
  * Instituut Toegepaste Biologie en Chemie
  * Bio-informatica
- * 
+ *
  */
 
 class DemoLinkedListVsArrayList {
@@ -21,7 +23,7 @@ class DemoLinkedListVsArrayList {
         }
       }
 
-    
+
     private static void timeAdding(){
         int aantalKeer = 10^10;
         lijst = new ArrayList<Integer>();
@@ -38,10 +40,19 @@ class DemoLinkedListVsArrayList {
         System.out.println("Tijd LinkedList: " + (double) tijd2 / 1000000000 + " seconden");
         System.out.println("LinkedList is "+(float)tijd1/(float)tijd2+" keer sneller");
     }
-    
-    
-    
+
     public static void main(String[] args) {
-        timeAdding();  
+        timeAdding();
+    }
+
+
+    public static double tijdVoorToevoegen(int aantal){
+        lijst = new LinkedList<Integer>();
+        long startTime = System.nanoTime();
+        addElements(lijst, aantal);
+        long endTime = System.nanoTime();
+        long tijd1 = endTime - startTime;
+        System.out.println("Tijd ArrayList: " + (double) tijd1 / 1000000000 + " seconden");
+        return (double) tijd1 / 1000000000; //Tijd in seconden
     }
 }

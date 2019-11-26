@@ -1,4 +1,4 @@
-package org.jfree.chart.demo;
+package LinkedList;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -10,31 +10,32 @@ import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
 
 
-public class XYSeriesDemo extends ApplicationFrame {
+public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
+    public static XYSeries series = new XYSeries("Tijd data");
+    ;
 
     /**
      * A demonstration application showing an XY series containing a null value.
      *
-     * @param title  the frame title.
+     * @param title the frame title.
      */
-    public XYSeriesDemo(final String title) {
+    public DemoLinkedVSArrayGrafiek(final String title) {
 
         super(title);
-        final XYSeries series = new XYSeries("Random Data");
-        series.add(1.0, 500.2);
-        series.add(5.0, 694.1);
-        series.add(4.0, 100.0);
-        series.add(12.5, 734.4);
-        series.add(17.3, 453.2);
-        series.add(21.2, 500.2);
-        series.add(21.9, null);
-        series.add(25.6, 734.4);
-        series.add(30.0, 453.2);
+        double tijd;
+        //addValue(10,tijd);
+        //tijd = DemoLinkedListVsArrayList.tijdVoorToevoegen(100);
+        for (int i = 0; i < 10000; i++) {
+            tijd = DemoLinkedListVsArrayList.tijdVoorToevoegen(i * 1000);
+            addValue(i, tijd);
+        }
+
+
         final XYSeriesCollection data = new XYSeriesCollection(series);
         final JFreeChart chart = ChartFactory.createXYLineChart(
-                "XY Series Demo",
-                "X",
-                "Y",
+                "Big O()",
+                "data",
+                "tijd",
                 data,
                 PlotOrientation.VERTICAL,
                 true,
@@ -48,6 +49,9 @@ public class XYSeriesDemo extends ApplicationFrame {
 
     }
 
+    public static void addValue(double x, double y) {
+        series.add(x, y);
+    }
 // ****************************************************************************
 // * JFREECHART DEVELOPER GUIDE                                               *
 // * The JFreeChart Developer Guide, written by David Gilbert, is available   *
@@ -62,11 +66,11 @@ public class XYSeriesDemo extends ApplicationFrame {
     /**
      * Starting point for the demonstration application.
      *
-     * @param args  ignored.
+     * @param args ignored.
      */
     public static void main(final String[] args) {
 
-        final XYSeriesDemo demo = new XYSeriesDemo("XY Series Demo");
+        final DemoLinkedVSArrayGrafiek demo = new DemoLinkedVSArrayGrafiek("XY Series Demo");
         demo.pack();
         RefineryUtilities.centerFrameOnScreen(demo);
         demo.setVisible(true);
