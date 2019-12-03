@@ -1,4 +1,4 @@
-package basicStack;
+package Stack;
 
 /**
  * @author Martijn van der Bruggen

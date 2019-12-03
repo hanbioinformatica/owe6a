@@ -1,4 +1,4 @@
-package basicStack;
+package Stack;
 
 /**
  * Voorbeeld van http://math.hws.edu/javanotes/c9/s3.html

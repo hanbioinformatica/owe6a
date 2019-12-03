@@ -13,7 +13,7 @@ import java.util.*;
 
 class DemoLinkedListVsArrayList {
 
-    static List<Integer> lijst;
+    static List<Integer> lijst = new ArrayList<>();
     static Random rand;
 
     public static void addElements(List l, int a) {
@@ -52,7 +52,7 @@ class DemoLinkedListVsArrayList {
         addElements(lijst, aantal);
         long endTime = System.nanoTime();
         long tijd1 = endTime - startTime;
-        System.out.println("Tijd ArrayList: " + (double) tijd1 / 1000000000 + " seconden");
+        System.out.println("LinkedList"+aantal+" Tijd:" + (double) tijd1 / 1000000000 + " seconden");
         return (double) tijd1 / 1000000000; //Tijd in seconden
     }
 }

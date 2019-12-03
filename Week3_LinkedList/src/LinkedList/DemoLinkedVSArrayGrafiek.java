@@ -9,10 +9,26 @@ import org.jfree.data.xy.XYSeriesCollection;
 import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import static LinkedList.DemoLinkedListVsArrayList.addElements;
+
 
 public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
     public static XYSeries series = new XYSeries("Tijd data");
-    ;
+    static List lijst = new ArrayList<Integer>();
+
+
+    public static double tijdVoorToevoegen(int aantal){
+        long startTime = System.nanoTime();
+        addElements(lijst, aantal);
+        long endTime = System.nanoTime();
+        long tijd1 = endTime - startTime;
+        System.out.println("LinkedList"+aantal+" Tijd:" + (double) tijd1 / 1000000000 + " seconden");
+        return (double) tijd1 / 1000000000; //Tijd in seconden
+    }
 
     /**
      * A demonstration application showing an XY series containing a null value.
@@ -25,8 +41,8 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
         double tijd;
         //addValue(10,tijd);
         //tijd = DemoLinkedListVsArrayList.tijdVoorToevoegen(100);
-        for (int i = 0; i < 10000; i++) {
-            tijd = DemoLinkedListVsArrayList.tijdVoorToevoegen(i * 1000);
+        for (int i = 0; i < 50; i++) {
+            tijd = tijdVoorToevoegen(i * 1000);
             addValue(i, tijd);
         }
 

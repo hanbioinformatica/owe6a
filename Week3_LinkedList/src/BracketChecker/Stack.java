@@ -1,4 +1,4 @@
-package bracketchecker;
+package BracketChecker;
 /**
  * @author Martijn van der Bruggen
  * @version 22 november 2018

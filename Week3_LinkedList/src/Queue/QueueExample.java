@@ -1,4 +1,4 @@
-package queueExamples;
+package Queue;
 
 /**
  * Voorbeeld van https://www.callicoder.com/java-queue/

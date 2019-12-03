@@ -1,4 +1,4 @@
-package reverseString;
+package Stack;
 
 /**
  * @author Martijn van der Bruggen
