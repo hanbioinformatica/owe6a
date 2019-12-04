@@ -181,9 +181,9 @@ public class HuffmanCompressie {
         return s;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        String currentDir = System.getProperty("user.dir") + File.separator + "src" + File.separator + "huffman" + File.separator;
+        String currentDir = System.getProperty("user.dir") + File.separator + "Week4_Trees" + File.separator + "src" + File.separator + "huffman" + File.separator;
         String naam = "data.txt";
         System.out.println("Current dir using System:" + currentDir);
         readDataFromFile(currentDir + naam);

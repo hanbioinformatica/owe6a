@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week1BigO/Week1BigO.iml" filepath="$PROJECT_DIR$/Week1BigO/Week1BigO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2_arrays/Week2_arrays.iml" filepath="$PROJECT_DIR$/Week2_arrays/Week2_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3_LinkedList/Week3_LinkedList.iml" filepath="$PROJECT_DIR$/Week3_LinkedList/Week3_LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week4_Trees/Week4_Trees.iml" filepath="$PROJECT_DIR$/Week4_Trees/Week4_Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/owe6a.iml" filepath="$PROJECT_DIR$/.idea/owe6a.iml" />
+    </modules>
+  </component>
+</project>

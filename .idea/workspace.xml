@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/owe6a.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jcommon-1.0.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19-experimental.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jfreesvg-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/orsoncharts-1.4-eval-nofx.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/orsonpdf-1.6-eval.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/swtgraphics2d.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week1BigO/BigO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/Array1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNAapp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/demo/ArrayDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/demo/Auto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/gene/Gene.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/gene/GeneApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/PizzaApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Ronald/GameOfLife.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Ronald/GuiOfLife.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BKnoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BasisBoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffMannNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffmanCompressie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Binarytree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Boom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Vb0602.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/BinNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/TreeApplicatie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/Ronald/GameOfLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/Ronald/GuiOfLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TZml6pAEMTTxZU9dUel8fX5RmT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_222" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week4_Trees/src" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Stack" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Queue" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HuffmanCompressie">
+    <configuration name="BasisBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boom.BasisBoom" />
+      <module name="Week4_Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Binarytree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introductie.Binarytree" />
+      <module name="Week4_Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introductie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jtree.GUIDesign" />
+      <module name="Week4_Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanCompressie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffman.HuffmanCompressie" />
+      <module name="Week4_Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vb0602" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jtree.Vb0602" />
+      <module name="Week4_Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HuffmanCompressie" />
+        <item itemvalue="Application.Vb0602" />
+        <item itemvalue="Application.GUIDesign" />
+        <item itemvalue="Application.Binarytree" />
+        <item itemvalue="Application.BasisBoom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="" />
+      <created>1573676139351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573676139351</updated>
+      <workItem from="1573676140818" duration="592000" />
+      <workItem from="1574078048106" duration="1847000" />
+      <workItem from="1574176375957" duration="997000" />
+      <workItem from="1574235439554" duration="975000" />
+      <workItem from="1574236735743" duration="4183000" />
+      <workItem from="1574326237923" duration="4571000" />
+      <workItem from="1574766636990" duration="1422000" />
+      <workItem from="1574769040429" duration="3500000" />
+      <workItem from="1574778249275" duration="3421000" />
+      <workItem from="1574840535843" duration="4459000" />
+      <workItem from="1574927208695" duration="204000" />
+      <workItem from="1574927584185" duration="15000" />
+      <workItem from="1574932108016" duration="921000" />
+      <workItem from="1574953006569" duration="1072000" />
+      <workItem from="1575015444470" duration="1408000" />
+      <workItem from="1575361120505" duration="47000" />
+      <workItem from="1575362232790" duration="1751000" />
+      <workItem from="1575382866783" duration="31000" />
+      <workItem from="1575447591902" duration="778000" />
+      <workItem from="1575454976634" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1826" height="151" key="GridCell.Tab.0.bottom" timestamp="1575369749826">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="151" key="GridCell.Tab.0.bottom/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
+    <state width="1826" height="151" key="GridCell.Tab.0.center" timestamp="1575369749826">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="151" key="GridCell.Tab.0.center/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
+    <state width="1826" height="151" key="GridCell.Tab.0.left" timestamp="1575369749826">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="151" key="GridCell.Tab.0.left/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
+    <state width="1826" height="151" key="GridCell.Tab.0.right" timestamp="1575369749826">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="151" key="GridCell.Tab.0.right/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
+    <state width="1826" height="341" key="GridCell.Tab.1.bottom" timestamp="1575017672556">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="341" key="GridCell.Tab.1.bottom/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
+    <state width="1826" height="341" key="GridCell.Tab.1.center" timestamp="1575017672556">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="341" key="GridCell.Tab.1.center/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
+    <state width="1826" height="341" key="GridCell.Tab.1.left" timestamp="1575017672556">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="341" key="GridCell.Tab.1.left/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
+    <state width="1826" height="341" key="GridCell.Tab.1.right" timestamp="1575017672556">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="341" key="GridCell.Tab.1.right/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
+    <state x="2253" y="177" width="1294" height="760" key="new project wizard" timestamp="1575362256175">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2253" y="177" width="1294" height="760" key="new project wizard/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575362256175" />
+    <state x="681" y="280" width="672" height="662" key="search.everywhere.popup" timestamp="1575447686531">
+      <screen x="50" y="27" width="1870" height="1053" />
+    </state>
+    <state x="2568" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575015558857" />
+    <state x="681" y="280" width="672" height="662" key="search.everywhere.popup/50.27.1870.1053/50.27.1870.1053@50.27.1870.1053" timestamp="1575447686531" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week3_LinkedList/src/Ronald/GuiOfLife.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
