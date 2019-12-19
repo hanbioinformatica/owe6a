@@ -5,7 +5,10 @@
  */
 package sets;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author Martijn van der Bruggen
@@ -16,8 +19,8 @@ import java.util.HashSet;
 public class DemoSetStrings {
 
     public static void main(String[] args) {
-        HashSet<String> boerderij = new HashSet<String>();
-        HashSet<String> dierentuin = new HashSet<String>();
+        Set<String> boerderij = new HashSet<String>();
+        Set<String> dierentuin = new HashSet<String>();
         boerderij.add("kip");
         boerderij.add("konijn");
         boerderij.add("varken");
@@ -27,7 +30,7 @@ public class DemoSetStrings {
         
         System.out.println(dierentuin);
         System.out.println(boerderij);
-        boerderij.retainAll(dierentuin);
+        boerderij.removeAll(dierentuin);
         
         System.out.println(boerderij);
                

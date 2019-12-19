@@ -89,7 +89,7 @@ public class Decompress {
     }
 
     public static void main(String[] args) throws IOException {
-        setFiles("/home/martijn/Dropbox/han/courses/jaar2/owe6/informatica/code/HashMap/src/lzw/file.txt.zzz");
+        setFiles("/home/martijn/IdeaProjects/owe6a/Week5_HashMapSet/src/lzw/file.txt.zzz");
         decompress();
     }
 }

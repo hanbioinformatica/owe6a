@@ -20,7 +20,7 @@ public class Compress {
     static BufferedOutputStream out;
 
     public static String getPath() {
-        return System.getProperty("user.dir") + File.separator + "src" + File.separator + "lzw" + File.separator;
+        return "/home/martijn/IdeaProjects/owe6a/Week5_HashMapSet/src/lzw/";
     }
 
     private static void setFiles() throws IOException {
@@ -52,9 +52,7 @@ public class Compress {
         for (int i = 0; i < ALPHA; i++) {
             table.put(i, i);
         }
-
         int codeUsed = ALPHA;
-
         int c = in.read();
         if (c != -1) {
             int pcode = c;
