@@ -16,13 +16,13 @@ public class ThreadInterfaceApp {
         for (int i = 0; i < 10; i++) {
             SimpleRunnableThread mrt1 = new SimpleRunnableThread("A");
             Thread t1 = new Thread((Runnable) mrt1);
-            t1.start();
+            t1.run();
         }
         for (int i = 0; i < 10; i++) {
 
             SimpleRunnableThread mrt2 = new SimpleRunnableThread("B");
             Thread t2 = new Thread((Runnable) mrt2);
-            t2.start();
+            t2.run();
         }
     }
 }

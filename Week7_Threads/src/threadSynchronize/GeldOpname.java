@@ -8,7 +8,7 @@ class GeldOpname extends Thread {
         super(str);
             }
 
-    public void neemGeldOp(int bedrag) {
+    public synchronized void neemGeldOp(int bedrag)  {
         int temp_saldo = saldo;
         System.out.println(getName() + " Opnemen van " + bedrag + " van " + temp_saldo);
         try {
