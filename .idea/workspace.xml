@@ -1,77 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/owe6a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jcommon-1.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19-experimental.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jfreechart-1.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jfreesvg-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/junit-4.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/orsoncharts-1.4-eval-nofx.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/orsonpdf-1.6-eval.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/swtgraphics2d.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week1BigO/BigO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/Array1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNAapp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/demo/ArrayDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/demo/Auto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/gene/Gene.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/gene/GeneApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/PizzaApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Ronald/GameOfLife.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Ronald/GuiOfLife.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BKnoop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BasisBoom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffMannNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffmanCompressie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Binarytree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Boom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Vb0602.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/BinNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/TreeApplicatie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/Ronald/GameOfLife.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/Ronald/GuiOfLife.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/ArrayDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/ArrayDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/pizza/PizzaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/pizza/PizzaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/pizza/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/pizza/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,20 +48,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1TZml6pAEMTTxZU9dUel8fX5RmT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
@@ -111,7 +64,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -126,13 +79,13 @@
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCompressie">
-    <configuration name="BasisBoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boom.BasisBoom" />
-      <module name="Week4_Trees" />
+  <component name="RunManager" selected="Application.ArrayDemo1">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Array" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boom.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binarytree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introductie.Binarytree" />
-      <module name="Week4_Trees" />
+    <configuration name="ArrayDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayBasis.ArrayDemo1" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="introductie.*" />
+          <option name="PATTERN" value="arrayBasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUIDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jtree.GUIDesign" />
-      <module name="Week4_Trees" />
+    <configuration name="DemoArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingCars.DemoArrayMain" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtree.*" />
+          <option name="PATTERN" value="sortingCars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vb0602" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jtree.Vb0602" />
-      <module name="Week4_Trees" />
+    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pizza.PizzaApp" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jtree.*" />
+          <option name="PATTERN" value="pizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,28 +145,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDemo1" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.DemoArrayMain" />
+        <item itemvalue="Application.PizzaApp" />
         <item itemvalue="Application.HuffmanCompressie" />
-        <item itemvalue="Application.Vb0602" />
-        <item itemvalue="Application.GUIDesign" />
-        <item itemvalue="Application.Binarytree" />
-        <item itemvalue="Application.BasisBoom" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -244,67 +199,55 @@
       <workItem from="1575382866783" duration="31000" />
       <workItem from="1575447591902" duration="778000" />
       <workItem from="1575454976634" duration="641000" />
+      <workItem from="1605542126919" duration="837000" />
+      <workItem from="1605558325595" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1826" height="151" key="GridCell.Tab.0.bottom" timestamp="1575369749826">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605559413569">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="151" key="GridCell.Tab.0.bottom/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
-    <state width="1826" height="151" key="GridCell.Tab.0.center" timestamp="1575369749826">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421419" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605559413569">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="151" key="GridCell.Tab.0.center/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
-    <state width="1826" height="151" key="GridCell.Tab.0.left" timestamp="1575369749826">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421418" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605559413568">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="151" key="GridCell.Tab.0.left/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
-    <state width="1826" height="151" key="GridCell.Tab.0.right" timestamp="1575369749826">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421418" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413568" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605559413569">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="151" key="GridCell.Tab.0.right/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575369749826" />
-    <state width="1826" height="341" key="GridCell.Tab.1.bottom" timestamp="1575017672556">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421419" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1605542209777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="341" key="GridCell.Tab.1.bottom/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
-    <state width="1826" height="341" key="GridCell.Tab.1.center" timestamp="1575017672556">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605542209777" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605542159902">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1826" height="341" key="GridCell.Tab.1.center/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
-    <state width="1826" height="341" key="GridCell.Tab.1.left" timestamp="1575017672556">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1826" height="341" key="GridCell.Tab.1.left/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
-    <state width="1826" height="341" key="GridCell.Tab.1.right" timestamp="1575017672556">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1826" height="341" key="GridCell.Tab.1.right/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575017672556" />
-    <state x="2253" y="177" width="1294" height="760" key="new project wizard" timestamp="1575362256175">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2253" y="177" width="1294" height="760" key="new project wizard/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575362256175" />
-    <state x="681" y="280" width="672" height="662" key="search.everywhere.popup" timestamp="1575447686531">
-      <screen x="50" y="27" width="1870" height="1053" />
-    </state>
-    <state x="2568" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/50.27.1870.1053@1920.0.1920.1080" timestamp="1575015558857" />
-    <state x="681" y="280" width="672" height="662" key="search.everywhere.popup/50.27.1870.1053/50.27.1870.1053@50.27.1870.1053" timestamp="1575447686531" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605542159902" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

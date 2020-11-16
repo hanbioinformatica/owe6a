@@ -20,7 +20,7 @@ public class ArrayDemo1 {
         a.add(new String("Hello"));
         a.add("Hellao");
         a.add("zeven");
-        for (Object x:a){
+        for (String x:a){
             System.out.println(x);
         }
 

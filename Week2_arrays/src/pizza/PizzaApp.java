@@ -1,9 +1,7 @@
 package pizza;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.*;
 
 public class PizzaApp {
 
@@ -22,6 +20,8 @@ public class PizzaApp {
         Collections.sort(aProduct);
         System.out.println(aProduct);
         System.out.println(Collections.max(aProduct));
+
+
 
 
 
