@@ -6,6 +6,7 @@ public class DemoArray {
 
     public static void main(String[]args) {
         // declaratie   ... initialisatie met de bepaling van de grootte van de array
+        // Kenmerken van een Array: de maat staat vast, een type data
         int[] int_array = new int[10];
         int_array[7]=90;
         for (int i=0;i<int_array.length;i++){
@@ -27,6 +28,11 @@ public class DemoArray {
         System.out.println("Wijzig in array 2");
         System.out.println(Arrays.toString(Array1));
         System.out.println(Arrays.toString(Array2));
+
+        String[] arr = "hello world en hallo wereld".split(" ");
+        for (String s:arr){
+            System.out.println(s);
+        }
 
 
     }
