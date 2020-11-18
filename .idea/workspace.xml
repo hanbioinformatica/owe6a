@@ -19,19 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo/Array.java" afterDir="false" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 16 november 2020">
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo/DemoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/pizza/PizzaAppModernSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/ArrayDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/ArrayDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/ArrayDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/Auto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2_arrays/src/pizza/PizzaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/pizza/PizzaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/pizza/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/pizza/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/ArrayDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/arrayBasis/DNA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/dna/DNApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/pizza/Schotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2_arrays/sortingCars/DemoArrayMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +62,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
+      <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pizza" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week4_Trees/src" />
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Stack" />
@@ -74,12 +76,8 @@
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker" />
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
-      <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayDemo1">
+  <component name="RunManager" selected="Application.DemoArray">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Array" />
       <module name="Week2_arrays" />
@@ -106,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.DemoArray" />
+      <module name="Week2_arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sortingCars.DemoArrayMain" />
       <module name="Week2_arrays" />
@@ -119,21 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffmanCompressie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huffman.HuffmanCompressie" />
-      <module name="Week4_Trees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="huffman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pizza.PizzaApp" />
+    <configuration name="PizzaAppModernSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pizza.PizzaAppModernSort" />
       <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoArray" />
+        <item itemvalue="Application.PizzaAppModernSort" />
         <item itemvalue="Application.ArrayDemo1" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.DemoArrayMain" />
-        <item itemvalue="Application.PizzaApp" />
-        <item itemvalue="Application.HuffmanCompressie" />
       </list>
     </recent_temporary>
   </component>
@@ -200,8 +198,18 @@
       <workItem from="1575447591902" duration="778000" />
       <workItem from="1575454976634" duration="641000" />
       <workItem from="1605542126919" duration="837000" />
-      <workItem from="1605558325595" duration="1005000" />
+      <workItem from="1605558325595" duration="2290000" />
+      <workItem from="1605599022109" duration="3324000" />
+      <workItem from="1605685704963" duration="340000" />
     </task>
+    <task id="LOCAL-00001" summary="Update 16 november 2020">
+      <created>1605559545649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605559545649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,31 +227,43 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update 16 november 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 16 november 2020" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605559413569">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1605602982992">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421419" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605559413569">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605602982992" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605603308127">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421418" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605559413568">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605560617167" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605603308127">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421418" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413568" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605559413569">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605560617167" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605603308127">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605544421419" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559413569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605560617167" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605603308127">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605560617167" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1605542209777">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605542209777" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605559565731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605559565731" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605542159902">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

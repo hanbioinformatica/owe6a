@@ -20,17 +20,7 @@ public class PizzaApp {
         Collections.sort(aProduct);
         System.out.println(aProduct);
         System.out.println(Collections.max(aProduct));
-
-
-
-
-
-
-
-
-
-
-    }
+            }
 
 
 }
