@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 18 november 2020: Arrays">
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/PokemonDemo/PokemonApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo/ArrayListDemo.java" afterDir="false" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 18 november 2020: Arrays en ArrayLists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/DemoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/demo/DemoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/PokemonDemo/PokemonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/PokemonDemo/PokemonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.PokemonApp">
-    <configuration name="ArrayDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayBasis.ArrayDemo1" />
-      <module name="Week2_arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayBasis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ArrayListDemo" />
       <module name="Week2_arrays" />
@@ -114,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaAppModernSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pizza.PizzaAppModernSort" />
-      <module name="Week2_arrays" />
+    <configuration name="DemoLinkedListVsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedListVsArrayList" />
+      <module name="Week3_LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizza.*" />
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoLinkedVSArrayGrafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedVSArrayGrafiek" />
+      <module name="Week3_LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PokemonApp" />
+        <item itemvalue="Application.DemoLinkedListVsArrayList" />
+        <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.DemoArray" />
-        <item itemvalue="Application.PizzaAppModernSort" />
-        <item itemvalue="Application.ArrayDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,8 @@
       <workItem from="1605558325595" duration="2290000" />
       <workItem from="1605599022109" duration="3324000" />
       <workItem from="1605685704963" duration="5306000" />
-      <workItem from="1605707163428" duration="740000" />
+      <workItem from="1605707163428" duration="2981000" />
+      <workItem from="1605795653812" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605686319364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update 18 november 2020: Arrays en ArrayLists">
+      <created>1605710226141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605710226141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update 16 november 2020" />
     <MESSAGE value="Update 18 november 2020: Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 18 november 2020: Arrays" />
+    <MESSAGE value="Update 18 november 2020: Arrays en ArrayLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 18 november 2020: Arrays en ArrayLists" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1605688543246">
@@ -244,26 +255,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605602982992" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605695150451">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605712771403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605695150451" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605695150451">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771403" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605712771402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605695150451" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605695150451">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605712771402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605695150451" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605695150451">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605712771402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605695150451" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1605542209777">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

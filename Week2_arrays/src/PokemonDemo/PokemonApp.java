@@ -9,20 +9,22 @@ import java.util.Comparator;
 public class PokemonApp {
 
     public static void main(String[] args) {
-        ArrayList<Pokemon> arrPok = new ArrayList<Pokemon>();
+        ArrayList<Pokemon> arrPok = new ArrayList<>();
         arrPok.add(new Pokemon("Pikachu",100,70,1));
         arrPok.add(new Pokemon("Ditto",17,90,4));
         arrPok.add(new Pokemon("Baltasur",190,1000,2));
         arrPok.add(new Pokemon("Sandstorm",10,7,100));
-        System.out.println(arrPok);
-        Collections.sort(arrPok);
-        System.out.println(arrPok);
-        Pokemon.sort_alg = 1;
-        Collections.sort(arrPok);
-        System.out.println(arrPok);
+//        System.out.println(arrPok);
+//        Collections.sort(arrPok);
+//        System.out.println(arrPok);
+//        Pokemon.sort_alg = 1;
+//        Collections.sort(arrPok);
+//        System.out.println(arrPok);
 
-        // een alternatieve manier om op basis van een methode te sorteren
-        Collections.sort(arrPok, Comparator.comparing(Pokemon::getSnelheid));
+        // een alternatieve en moderne manier om op basis van een methode te sorteren
+        //               ArrayList van Pokemon, Comparator.comparing(ObjectType Pokemon:: methode die een waaarde
+        //                                                                  teruggeeft waarop vergeleken wordt
+        Collections.sort(arrPok, Comparator.comparing(Pokemon::getKracht));
         System.out.println(arrPok);
 
     }
@@ -30,7 +32,7 @@ public class PokemonApp {
 }
 
 
-class Pokemon implements Comparable {
+class Pokemon implements Comparable <Pokemon> {
     private String naam;
     private int kracht;
     private int snelheid;
@@ -44,8 +46,8 @@ class Pokemon implements Comparable {
         this.level = level;
     }
 
-    public int compareTo(Object o){
-        Pokemon p = (Pokemon) o; // casten van een generiek object naar Pokemon object
+    public int compareTo(Pokemon p){
+        //Pokemon p = (Pokemon) o; // casten van een generiek object naar Pokemon object
         if (sort_alg==0) {
             if (this.naam.length() > p.getNaam().length()) {
                 return +1;
@@ -61,8 +63,6 @@ class Pokemon implements Comparable {
                     return 0;
                 } else return -1;
         } else return 0;
-
-
     }
 
     public String toString(){
