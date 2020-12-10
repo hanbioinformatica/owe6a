@@ -1,12 +1,13 @@
 package LinkedList;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class LinkedListExample {
 
     public static void main(String[] args) {
         System.out.println("Linked List Example!");
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        LinkedList<Integer> list = new LinkedList<>();
         int num1 = 11, num2 = 22, num3 = 33, num4 = 44;
         int size;
 

@@ -194,6 +194,6 @@ public class HuffmanCompressie {
         System.out.println(getBinaryData());
 
         
-        //uncompressText();
+        uncompressText();
     }
 }

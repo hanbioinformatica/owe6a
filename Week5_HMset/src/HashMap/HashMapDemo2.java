@@ -5,13 +5,13 @@ import java.util.LinkedHashMap;
 
 public class HashMapDemo2 {
 
-    static LinkedHashMap<String, Object> hm = new LinkedHashMap<>();
+    static HashMap<String, Object> hm = new HashMap<>();
 
     public static void main(String[] args) {
-        hm.put("Bart", "06-8432873");
-        hm.put("Johannes", new Auto());
-        System.out.println(hm.get("Bart"));
-        System.out.println(hm.get("Johannes"));
+        hm.put("Pieter", "06-8432873");
+        hm.put("Dominic", new Auto());
+        System.out.println(hm.get("Pieter"));
+        System.out.println(hm.get("Dominic"));
     }
 }
 

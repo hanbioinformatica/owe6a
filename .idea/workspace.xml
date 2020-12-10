@@ -19,11 +19,61 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 18 november 2020: Arrays en ArrayLists">
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 19 november 2020: Arrays en ArrayLists + Pokemon">
+      <change afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoAppEen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5_HMset/Week5_HMset.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5_HashMapSet/Week5_HM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5_HashMapSet/Week5_HM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5_HashMapSet/Week5_HM/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2_arrays/src/PokemonDemo/PokemonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/PokemonDemo/PokemonApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/LinkedListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/boom/BoomDoorlopen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/boom/BoomDoorlopen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/HashMap/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/HashMap/HashMapDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/HashMap/MaandenMetDagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/MaandenMetDagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/Compress.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/Compress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/Decompress.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/Decompress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/file.txt.zzz" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/file.txt.zzz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/lzw/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/sets/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/sets/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/sets/AutoSetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/AutoSetApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/sets/DemoHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/DemoHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HashMapSet/src/sets/DemoSetStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/DemoSetStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BKnoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BKnoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BasisBoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BasisBoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffMannNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffMannNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffmanCompressie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/HuffmanCompressie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Binarytree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Binarytree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/introductie/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Boom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Boom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/GUIDesign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Vb0602.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/jtree/Vb0602.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/BinNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/BinNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/TreeApplicatie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/treeTraversal/TreeApplicatie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +91,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TZml6pAEMTTxZU9dUel8fX5RmT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
@@ -56,6 +111,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -63,24 +119,24 @@
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pizza" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bgnmh\IdeaProjects\owe6a\Week5_HMset\src\lzw" />
+      <recent name="C:\Users\bgnmh\IdeaProjects\owe6a\Week5_HMset\src" />
       <recent name="$PROJECT_DIR$/Week4_Trees/src" />
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Stack" />
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Queue" />
-      <recent name="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker" />
-      <recent name="$PROJECT_DIR$/Week3_LinkedList/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PokemonApp">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.ArrayListDemo" />
-      <module name="Week2_arrays" />
+  <component name="RunManager" selected="Application.Decompress">
+    <configuration name="Decompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lzw.Decompress" />
+      <module name="Week5_HMset" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="lzw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.DemoArray" />
-      <module name="Week2_arrays" />
+    <configuration name="GUIDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jtree.GUIDesign" />
+      <module name="Week4_Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="jtree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLinkedListVsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedListVsArrayList" />
-      <module name="Week3_LinkedList" />
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapDemo" />
+      <module name="Week5_HMset" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLinkedVSArrayGrafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedVSArrayGrafiek" />
-      <module name="Week3_LinkedList" />
+    <configuration name="HashMapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapDemo2" />
+      <module name="Week5_HMset" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PokemonDemo.PokemonApp" />
-      <module name="Week2_arrays" />
+    <configuration name="HuffmanCompressie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffman.HuffmanCompressie" />
+      <module name="Week4_Trees" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PokemonDemo.*" />
+          <option name="PATTERN" value="huffman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PokemonApp" />
-        <item itemvalue="Application.DemoLinkedListVsArrayList" />
-        <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.DemoArray" />
+        <item itemvalue="Application.Decompress" />
+        <item itemvalue="Application.HashMapDemo2" />
+        <item itemvalue="Application.HashMapDemo" />
+        <item itemvalue="Application.HuffmanCompressie" />
+        <item itemvalue="Application.GUIDesign" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +255,22 @@
       <workItem from="1605599022109" duration="3324000" />
       <workItem from="1605685704963" duration="5306000" />
       <workItem from="1605707163428" duration="2981000" />
-      <workItem from="1605795653812" duration="1924000" />
+      <workItem from="1605795653812" duration="5359000" />
+      <workItem from="1606249333648" duration="1478000" />
+      <workItem from="1606290155753" duration="2787000" />
+      <workItem from="1606847012864" duration="709000" />
+      <workItem from="1607001918107" duration="1278000" />
+      <workItem from="1607009293827" duration="614000" />
+      <workItem from="1607347893087" duration="611000" />
+      <workItem from="1607457277346" duration="85000" />
+      <workItem from="1607457477702" duration="601000" />
+      <workItem from="1607500794846" duration="43000" />
+      <workItem from="1607500860234" duration="116000" />
+      <workItem from="1607500998302" duration="1243000" />
+      <workItem from="1607504138512" duration="128000" />
+      <workItem from="1607507362104" duration="618000" />
+      <workItem from="1607519335513" duration="111000" />
+      <workItem from="1607547587733" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -222,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605710226141</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 19 november 2020: Arrays en ArrayLists + Pokemon">
+      <created>1605797694136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605797694136</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,52 +319,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update 16 november 2020" />
     <MESSAGE value="Update 18 november 2020: Arrays" />
     <MESSAGE value="Update 18 november 2020: Arrays en ArrayLists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 18 november 2020: Arrays en ArrayLists" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1605688543246">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605688543246" />
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1605602982992">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605602982992" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1605712771403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771403" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1605712771402">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1605712771402">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1605712771402">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605603308127" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605712771402" />
-    <state x="2381" y="164" key="SettingsEditor" timestamp="1605542209777">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605542209777" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605686333449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605686333449" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605542159902">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605542159902" />
+    <MESSAGE value="Update 19 november 2020: Arrays en ArrayLists + Pokemon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 19 november 2020: Arrays en ArrayLists + Pokemon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

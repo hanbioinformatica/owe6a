@@ -20,7 +20,7 @@ public class Compress {
     static BufferedOutputStream out;
 
     public static String getPath() {
-        return "/home/martijn/IdeaProjects/owe6a/Week5_HashMapSet/src/lzw/";
+        return "C:\\Users\\bgnmh\\IdeaProjects\\owe6a\\Week5_HMset\\src\\lzw";
     }
 
     private static void setFiles() throws IOException {

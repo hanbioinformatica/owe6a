@@ -49,7 +49,7 @@ public class BracketChecker {
     }
 
     public static void main(String[] args) throws IOException {
-        String invoer = "{(9+9)[432]{(329321}}";
+        String invoer = "{(9+9)[432]{{(329321}}";
         System.out.println(invoer);
         check(invoer);
     }
