@@ -30,7 +30,7 @@ public class DemoSetStrings {
         
         System.out.println(dierentuin);
         System.out.println(boerderij);
-        boerderij.removeAll(dierentuin);
+        boerderij.retainAll(dierentuin);
         
         System.out.println(boerderij);
                

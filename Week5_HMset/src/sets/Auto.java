@@ -18,13 +18,14 @@ public final class Auto {
         setKleur(k);
         setMerk(merk);
         setBouwjaar(b);
+
     }
 
     @Override
     public int hashCode() {
         int hash = 3;
         //hash = 83 * hash + (this.eigenaar != null ? this.eigenaar.hashCode() : 0);
-        hash = 83 * hash + (this.kleur != null ? this.kleur.hashCode()+this.merk.hashCode()+this.eigenaar.hashCode() : 0);
+        hash = 83 * hash + (this.kleur != null ? this.kleur.hashCode()+this.merk.hashCode(): 0);
 
         //hash = 83 * hash + this.pk;
         return hash;
@@ -37,7 +38,7 @@ public final class Auto {
 
     @Override
     public String toString() {
-        return eigenaar + " " + kleur + " pks:";
+        return eigenaar + " " + kleur + " bouwjaar: "+bouwjaar;
     }
 
     public String getEigenaar() {
