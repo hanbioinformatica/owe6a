@@ -1,5 +1,15 @@
 package LinkedList;
 
+/**
+ * @author Martijn van der Bruggen
+ * @version 25 november 2020
+ * (c) HAN University
+ * Instituut Toegepaste Biologie en Chemie
+ * Bio-informatica
+ *
+ */
+
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;

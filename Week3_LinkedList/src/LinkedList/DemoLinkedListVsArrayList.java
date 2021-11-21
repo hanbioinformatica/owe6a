@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author Martijn van der Bruggen
- * @version 25 november 2018
+ * @version 25 november 2020
  * (c) HAN University
  * Instituut Toegepaste Biologie en Chemie
  * Bio-informatica

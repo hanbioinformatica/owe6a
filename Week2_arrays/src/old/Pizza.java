@@ -1,4 +1,4 @@
-package pizza;
+package old;
 
 public class Pizza extends Product implements Comparable {
 

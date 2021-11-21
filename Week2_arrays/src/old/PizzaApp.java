@@ -1,7 +1,6 @@
-package pizza;
+package old;
 
 import java.util.*;
-import java.util.stream.*;
 
 public class PizzaApp {
 

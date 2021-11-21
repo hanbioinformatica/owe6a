@@ -1,4 +1,4 @@
-package pizza;
+package old;
 
 public class Schotel extends Product implements Comparable{
 
