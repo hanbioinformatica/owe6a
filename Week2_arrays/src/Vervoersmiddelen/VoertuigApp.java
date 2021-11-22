@@ -2,9 +2,10 @@ package Vervoersmiddelen;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class VoertuigApp {
-    static ArrayList<Object> autolijst = new ArrayList<>();
+    static ArrayList<Auto> autolijst = new ArrayList<>();
 
     public static void main(String[] args) {
       autolijst.add(new Auto(2349,1987,"rood"));
@@ -19,6 +20,11 @@ public class VoertuigApp {
         }
         Collections.sort(autolijst);
         System.out.println("Na sorteren");
+        for (Auto auto:autolijst){
+            System.out.println(auto);
+        }
+        System.out.println("Na sortering op jaartal...");
+        Collections.sort(autolijst, Comparator.comparing(Auto::getJaartal));
         for (Auto auto:autolijst){
             System.out.println(auto);
         }

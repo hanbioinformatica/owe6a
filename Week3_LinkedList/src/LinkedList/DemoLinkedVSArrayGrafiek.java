@@ -28,7 +28,7 @@ import static LinkedList.DemoLinkedListVsArrayList.addElements;
 
 public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
     public static XYSeries series = new XYSeries("Tijd data");
-    static List lijst = new LinkedList<Integer>();
+    static List lijst = new ArrayList<Integer>();
 
 
     public static double tijdVoorToevoegen(int aantal){
