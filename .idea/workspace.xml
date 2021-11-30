@@ -22,11 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 16 november 2021:">
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 22 november 2021: comparotor nieuwe versie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/Vervoersmiddelen/VoertuigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/Vervoersmiddelen/VoertuigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/introductie/Binarytree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/introductie/Binarytree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VoertuigApp">
+  <component name="RunManager" selected="Application.BracketCheckerRewrite">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayBasis.DemoArrayList" />
-      <module name="Week2_arrays" />
+    <configuration name="BracketCheckerRewrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BracketChecker.BracketCheckerRewrite" />
+      <module name="Week3_LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayBasis.*" />
+          <option name="PATTERN" value="BracketChecker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaAppModernSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="old.PizzaAppModernSort" />
-      <module name="Week2_arrays" />
+    <configuration name="StackReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.StackReverse" />
+      <module name="Week3_LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="old.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VoertuigApp" />
+        <item itemvalue="Application.BracketCheckerRewrite" />
+        <item itemvalue="Application.StackReverse" />
         <item itemvalue="Application.DemoLinkedListVsArrayList" />
+        <item itemvalue="Application.VoertuigApp" />
         <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
-        <item itemvalue="Application.DemoArrayList" />
-        <item itemvalue="Application.PizzaAppModernSort" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +243,12 @@
       <workItem from="1637185414542" duration="382000" />
       <workItem from="1637221394119" duration="4208000" />
       <workItem from="1637519604554" duration="2299000" />
+      <workItem from="1637611434266" duration="1227000" />
+      <workItem from="1637659212652" duration="3135000" />
+      <workItem from="1637788699754" duration="697000" />
+      <workItem from="1637827777872" duration="3122000" />
+      <workItem from="1638112929236" duration="1679000" />
+      <workItem from="1638216929659" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -290,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637523936799</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update 22 november 2021: comparotor nieuwe versie">
+      <created>1637611740530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637611740530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +333,8 @@
     <MESSAGE value="Update 11 december 2020: Trees, HashMaps en Sets" />
     <MESSAGE value="Update 16 december 2020: Graphs" />
     <MESSAGE value="Update 16 november 2021:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 16 november 2021:" />
+    <MESSAGE value="Update 22 november 2021: comparotor nieuwe versie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 22 november 2021: comparotor nieuwe versie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

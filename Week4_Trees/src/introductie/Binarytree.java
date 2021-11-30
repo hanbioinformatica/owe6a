@@ -36,7 +36,7 @@ public class Binarytree
         Node n3 = new Node(2);
         Node n4 = new Node(5);
 
-        Binarytree tree = new Binarytree(3); //  3
+        Binarytree tree = new Binarytree(3); //       3
         tree.add(root, n1, "left"); //         1/ \
         tree.add(root, n2, "right"); //            4
         tree.add(n2, n3, "left"); //             2/ \

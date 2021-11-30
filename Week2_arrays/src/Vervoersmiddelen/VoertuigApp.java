@@ -3,9 +3,10 @@ package Vervoersmiddelen;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedList;
 
 public class VoertuigApp {
-    static ArrayList<Auto> autolijst = new ArrayList<>();
+    static LinkedList<Auto> autolijst = new LinkedList<>();
 
     public static void main(String[] args) {
       autolijst.add(new Auto(2349,1987,"rood"));

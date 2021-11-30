@@ -26,6 +26,7 @@ class DemoLinkedListVsArrayList {
 
 
     private static void timeAdding(){
+        System.out.println("Toevoegen aan ArrayList");
         int aantalKeer = 10^10;
         lijst = new ArrayList<Integer>();
         long startTime = System.nanoTime();
@@ -33,18 +34,23 @@ class DemoLinkedListVsArrayList {
         long endTime = System.nanoTime();
         long tijd1 = endTime - startTime;
         System.out.println("Tijd ArrayList: " + (double) tijd1 / 1000000000 + " seconden");
+
+        System.out.println("Toevoegen aan LinkedList");
         lijst = new LinkedList<Integer>();
         startTime = System.nanoTime();
         addElements(lijst, aantalKeer);
         endTime = System.nanoTime();
         long tijd2 = endTime - startTime;
         System.out.println("Tijd LinkedList: " + (double) tijd2 / 1000000000 + " seconden");
+
+        System.out.println("Vergelijking in tijd...");
         System.out.println("LinkedList is "+(float)tijd1/(float)tijd2+" keer sneller");
     }
 
     private static void timeGetting(){
         System.out.println("Ophalen van data uit ArrayList vs. LinkedList");
         int aantalKeer = 10^10;
+        System.out.println("Ophalen van elementen");
         lijst = new ArrayList<Integer>();
         addElements(lijst, aantalKeer);
         long startTime = System.nanoTime();
@@ -68,18 +74,10 @@ class DemoLinkedListVsArrayList {
 
 
     public static void main(String[] args) {
-        timeAdding();
-        //timeGetting();
+        //timeAdding();
+        timeGetting();
     }
 
 
-    public static double tijdVoorToevoegen(int aantal){
-        lijst = new LinkedList<Integer>();
-        long startTime = System.nanoTime();
-        addElements(lijst, aantal);
-        long endTime = System.nanoTime();
-        long tijd1 = endTime - startTime;
-        System.out.println("LinkedList"+aantal+" Tijd:" + (double) tijd1 / 1000000000 + " seconden");
-        return (double) tijd1 / 1000000000; //Tijd in seconden
-    }
+
 }
