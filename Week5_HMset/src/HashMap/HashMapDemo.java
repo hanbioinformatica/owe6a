@@ -9,7 +9,7 @@ import java.util.*;
 public class HashMapDemo {
 
     public static void main(String[] args) {
-        Map<String, String> hm = new HashMap<String, String>(10);
+        Map<String, String> hm = new HashMap<>(10);
         hm.put("Bas", "06-873287234");
         hm.put("Max", "06-218734");
         hm.put("David", "98341243");

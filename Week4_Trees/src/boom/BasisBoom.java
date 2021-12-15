@@ -27,7 +27,7 @@ public class BasisBoom {
 
     // Maak van knoopE, die een kind van knoopB is,
     // een kind van knoopC
-    knoopC.insert( knoopE, BKnoop.LEFT );
+   // knoopC.insert( knoopE, BKnoop.LEFT );
   }
 }
 
