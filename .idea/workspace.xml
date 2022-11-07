@@ -23,14 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 30 november 2021: trees">
-      <change afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/DemoHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/boom/BasisBoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/boom/BasisBoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/Week5_HMset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/Week5_HMset.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/sets/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/sets/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/sets/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1TZml6pAEMTTxZU9dUel8fX5RmT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,27 +60,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_222" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
@@ -267,6 +250,7 @@
       <workItem from="1639036175756" duration="4464000" />
       <workItem from="1639430035733" duration="568000" />
       <workItem from="1639597988161" duration="292000" />
+      <workItem from="1667807075416" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
