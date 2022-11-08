@@ -22,9 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 7 november 2022: Uitwerking van linear en binary search in week 1">
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1BigO/src/BigO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1BigO/src/BigO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/DemoArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/DemoHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/lzw/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/Element.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +252,8 @@
       <workItem from="1639430035733" duration="568000" />
       <workItem from="1639597988161" duration="292000" />
       <workItem from="1667807075416" duration="6178000" />
-      <workItem from="1667897033890" duration="2071000" />
+      <workItem from="1667897033890" duration="6453000" />
+      <workItem from="1667925192609" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -331,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667855241675</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update 8 november 2022: Aanpassing en vereenvoudiging">
+      <created>1667899148507</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667899148507</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +377,8 @@
     <MESSAGE value="Update 7 november 2022: start nieuw blok" />
     <MESSAGE value="Update 7 november 2022: extra voorbeeld" />
     <MESSAGE value="Update 7 november 2022: Uitwerking van linear en binary search in week 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 7 november 2022: Uitwerking van linear en binary search in week 1" />
+    <MESSAGE value="Update 8 november 2022: Aanpassing en vereenvoudiging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 8 november 2022: Aanpassing en vereenvoudiging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

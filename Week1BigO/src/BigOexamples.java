@@ -12,7 +12,7 @@ public class BigOexamples {
     // arrayList met willekeurige ints
     private static ArrayList<Integer> al = new ArrayList<>();
     // Grootte van de array met willekeurige getallen
-    private static int n = ((int) Math.pow(10, 8));
+    private static int n = ((int) Math.pow(10, 7));
     // Random object om willekeurige ints te genereren
     private static Random r = new Random();
 
