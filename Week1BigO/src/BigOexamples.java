@@ -1,7 +1,7 @@
 /**
  * Martijn van der Bruggen
  * 7 november 2022
- * Uitwerking voorbeelden van linear search en binary search
+ * Uitwerking voorbeelden van lineair search en binary search
  */
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class BigOexamples {
     // arrayList met willekeurige ints
     private static ArrayList<Integer> al = new ArrayList<>();
     // Grootte van de array met willekeurige getallen
-    private static int n = ((int) Math.pow(10, 7));
+    private static int n = ((int) Math.pow(10, 8));
     // Random object om willekeurige ints te genereren
     private static Random r = new Random();
 
@@ -22,10 +22,14 @@ public class BigOexamples {
         }
     }
 
-    public static int lineairzoeken(int getal) {
+    /**
+     * LineairZoeken lineair door een ArrayList zoeken naar een int
+     * @param getal de int die je zoekt in de ArrayList
+     * @return de positie (int) waarop het getal is gevonden
+     */
+    public static int lineairZoeken(int getal) {
         int index = 0;
-        boolean gevonden = false;
-        while (!gevonden && index < n) {
+        while (index < n) {
             if (al.get(index)==getal)
                 return index;
             else
@@ -34,23 +38,28 @@ public class BigOexamples {
         return -1;
     }  // lineairzoeken
 
-    public static int binairzoeken(int rechts, int getal) {
-        int links = 0, midden = 0;
-        boolean gevonden = false;
-        while (!gevonden && links <= rechts) {
+    /**
+     * binairZoeken vereist dat de ArrayList gesorteerd is
+     * @param grootte de grootte van de ArrayList
+     * @param getal de int die je zoekt in de ArrayList
+     * @return de positie (int) waarop het getal is gevonden
+     */
+    public static int binairZoeken(int grootte, int getal) {
+        int links = 0, rechts = grootte , midden = 0;
+        while (links <= rechts) {
             midden = (links + rechts) / 2;
-            if (getal == al.get(midden))
+            if (al.get(midden)==getal)
                 return midden;
             else if (getal > al.get(midden))
                 links = midden + 1;
             else
                 rechts = midden - 1;
-        }  // while
+        }  
         return -1;
     }  // binairzoeken
 
     public static void main(String[] args) {
-        long startTime, endTime, duration;
+        long startTime, endTime;
         int willekeurigGetal = r.nextInt(n); // willekeurig getal
         // init van een array met willekeurige getallen
         System.out.println("Init van een array met "+n+" willekeurige ints");
@@ -60,21 +69,21 @@ public class BigOexamples {
         //Sorteren om een binary search mogelijk te maken
         al.sort(null);
 
-        System.out.println("Lineair zoeken naar een willekeurig getal "+willekeurigGetal);
+        System.out.println("Lineair zoeken naar "+willekeurigGetal);
         // linear search
         startTime = System.nanoTime();
-        lineairzoeken(willekeurigGetal);
+        lineairZoeken(willekeurigGetal);
         endTime = System.nanoTime();
-        duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
-        System.out.println(duration / 1000);
+        long tijdLineairZoeken = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+        System.out.println("Tijd in microseconden: "+(tijdLineairZoeken / 1000)) ;
 
-        System.out.println("Binair zoeken naar een willekeurig getal "+willekeurigGetal);
+        System.out.println("Binair zoeken naar "+willekeurigGetal);
         // binary search
         startTime = System.nanoTime();
-        binairzoeken(n, willekeurigGetal);
+        binairZoeken(n, willekeurigGetal);
         endTime = System.nanoTime();
-        duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
-        System.out.println(duration / 1000);
-
+        long tijdBinairZoeken = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+        System.out.println("Tijd in microseconden: "+(tijdBinairZoeken / 1000));
+        System.out.println("Binair zoeken is "+(tijdLineairZoeken/tijdBinairZoeken)+" keer sneller");
     }
 }

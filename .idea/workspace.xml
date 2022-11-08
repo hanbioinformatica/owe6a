@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 30 november 2021: trees">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 7 november 2022: Uitwerking van linear en binary search in week 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +60,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
@@ -83,7 +83,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.BigOexamples">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,15 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sets.App" />
-      <module name="Week5_HMset" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="BigOexamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigOexamples" />
+      <module name="Week1BigO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigOexamples" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.ShortestPath" />
         <item itemvalue="Application.Grafiek" />
         <item itemvalue="Application.DemoSetStrings" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +244,8 @@
       <workItem from="1639036175756" duration="4464000" />
       <workItem from="1639430035733" duration="568000" />
       <workItem from="1639597988161" duration="292000" />
-      <workItem from="1667807075416" duration="223000" />
+      <workItem from="1667807075416" duration="6178000" />
+      <workItem from="1667897033890" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -315,7 +310,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638261427168</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update 7 november 2022: start nieuw blok">
+      <created>1667807676361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667807676361</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update 7 november 2022: extra voorbeeld">
+      <created>1667808950640</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667808950640</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update 7 november 2022: Uitwerking van linear en binary search in week 1">
+      <created>1667855241674</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667855241675</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +359,10 @@
     <MESSAGE value="Update 16 november 2021:" />
     <MESSAGE value="Update 22 november 2021: comparotor nieuwe versie" />
     <MESSAGE value="Update 30 november 2021: trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 30 november 2021: trees" />
+    <MESSAGE value="Update 7 november 2022: start nieuw blok" />
+    <MESSAGE value="Update 7 november 2022: extra voorbeeld" />
+    <MESSAGE value="Update 7 november 2022: Uitwerking van linear en binary search in week 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 7 november 2022: Uitwerking van linear en binary search in week 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
