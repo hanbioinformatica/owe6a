@@ -22,17 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1BigO/src/BigO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1BigO/src/BigO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1BigO/src/BigOexamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/demo/DemoArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/DemoHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/HashMapDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/lzw/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/lzw/Element.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +116,7 @@
     </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphExampleDijkstra.Driver" />
-      <module name="Week6_Graphs_" />
+      <module name="Graphs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graphExampleDijkstra.*" />
@@ -139,7 +129,7 @@
     </configuration>
     <configuration name="Grafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursie.Grafiek" />
-      <module name="Week6_Graphs_" />
+      <module name="Graphs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursie.*" />
@@ -152,7 +142,7 @@
     </configuration>
     <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dijkstra.ShortestPath" />
-      <module name="Week6_Graphs_" />
+      <module name="Graphs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dijkstra.*" />
@@ -253,7 +243,7 @@
       <workItem from="1639597988161" duration="292000" />
       <workItem from="1667807075416" duration="6178000" />
       <workItem from="1667897033890" duration="6453000" />
-      <workItem from="1667925192609" duration="740000" />
+      <workItem from="1667925192609" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -346,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667899148507</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update 8 november 2022: Aanpassing en vereenvoudiging">
+      <created>1667926074365</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667926074365</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
