@@ -22,11 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging">
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/demoArg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo2022/demoArray.java" afterDir="false" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 15 november 2022: Arrays">
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demoArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/productDemo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/productDemo/ProductApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/Array1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demoArg">
+  <component name="RunManager" selected="Application.ProductApp">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,19 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigOexamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BigOexamples" />
-      <module name="Week1BigO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphExampleDijkstra.Driver" />
-      <module name="Graphs" />
+    <configuration name="ProductApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="productDemo.ProductApp" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphExampleDijkstra.*" />
+          <option name="PATTERN" value="productDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demoArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demoArrayList" />
+      <module name="Week2_arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductApp" />
+        <item itemvalue="Application.demoArrayList" />
         <item itemvalue="Application.demoArg" />
         <item itemvalue="Application.demoArray" />
         <item itemvalue="Application.Array1" />
-        <item itemvalue="Application.BigOexamples" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,7 @@
       <workItem from="1667925192609" duration="2305000" />
       <workItem from="1668081734637" duration="602000" />
       <workItem from="1668177437650" duration="8000" />
-      <workItem from="1668501099114" duration="5587000" />
+      <workItem from="1668501099114" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -361,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667926599127</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update 15 november 2022: Arrays">
+      <created>1668509124503</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668509124503</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +400,8 @@
     <MESSAGE value="Update 7 november 2022: extra voorbeeld" />
     <MESSAGE value="Update 7 november 2022: Uitwerking van linear en binary search in week 1" />
     <MESSAGE value="Update 8 november 2022: Aanpassing en vereenvoudiging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 8 november 2022: Aanpassing en vereenvoudiging" />
+    <MESSAGE value="Update 15 november 2022: Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 15 november 2022: Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
