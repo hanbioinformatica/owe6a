@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 8 november 2022: Aanpassing en vereenvoudiging">
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/demoArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demo2022/demoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/Array1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,13 +62,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
@@ -80,7 +86,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigOexamples">
+  <component name="RunManager" selected="Application.demoArg">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -94,22 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigOexamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BigOexamples" />
-      <module name="Week1BigO" />
+    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayBasis.Array1" />
+      <module name="Week2_arrays" />
+      <option name="PROGRAM_PARAMETERS" value="Hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayBasis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSetStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sets.DemoSetStrings" />
-      <module name="Week5_HMset" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="BigOexamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigOexamples" />
+      <module name="Week1BigO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,12 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursie.Grafiek" />
-      <module name="Graphs" />
+    <configuration name="demoArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayBasis.demoArg" />
+      <module name="Week2_arrays" />
+      <option name="PROGRAM_PARAMETERS" value="apen noten miezen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursie.*" />
+          <option name="PATTERN" value="arrayBasis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dijkstra.ShortestPath" />
-      <module name="Graphs" />
+    <configuration name="demoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo2022.demoArray" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dijkstra.*" />
+          <option name="PATTERN" value="demo2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demoArg" />
+        <item itemvalue="Application.demoArray" />
+        <item itemvalue="Application.Array1" />
         <item itemvalue="Application.BigOexamples" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.ShortestPath" />
-        <item itemvalue="Application.Grafiek" />
-        <item itemvalue="Application.DemoSetStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +251,10 @@
       <workItem from="1639597988161" duration="292000" />
       <workItem from="1667807075416" duration="6178000" />
       <workItem from="1667897033890" duration="6453000" />
-      <workItem from="1667925192609" duration="1141000" />
+      <workItem from="1667925192609" duration="2305000" />
+      <workItem from="1668081734637" duration="602000" />
+      <workItem from="1668177437650" duration="8000" />
+      <workItem from="1668501099114" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -343,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667926074365</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update 8 november 2022: Aanpassing en vereenvoudiging">
+      <created>1667926599127</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667926599127</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

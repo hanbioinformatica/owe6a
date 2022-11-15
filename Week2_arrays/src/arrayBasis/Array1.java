@@ -17,7 +17,6 @@ public class Array1 {
 
     public static void main(String[] args) {
 
-        mijnArr[0] = 9;
         //System.out.println(mijnArr[0]);
         // Array declaratie en creatie van object in twee stappen
 
