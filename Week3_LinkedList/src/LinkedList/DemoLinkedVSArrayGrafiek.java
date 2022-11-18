@@ -51,7 +51,7 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
         double tijd;
         //addValue(10,tijd);
         //tijd = DemoLinkedListVsArrayList.tijdVoorToevoegen(100);
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 20; i++) {
             tijd = tijdVoorToevoegen(i * 1000);
             addValue(i, tijd);
         }
@@ -95,12 +95,10 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
      * @param args ignored.
      */
     public static void main(final String[] args) {
-
         final DemoLinkedVSArrayGrafiek demo = new DemoLinkedVSArrayGrafiek("XY Series Demo");
         demo.pack();
         RefineryUtilities.centerFrameOnScreen(demo);
         demo.setVisible(true);
-
     }
 
 }

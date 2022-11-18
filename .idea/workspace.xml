@@ -23,10 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 15 november 2022: Arrays">
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/demoArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/productDemo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/productDemo/ProductApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoAppEen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoAuto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/LinkedListExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Queue/QueueExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackOfInts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/Stack/StackReverse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +75,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
@@ -86,7 +99,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductApp">
+  <component name="RunManager" selected="Application.DemoLinkedVSArrayGrafiek">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,13 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayBasis.Array1" />
-      <module name="Week2_arrays" />
-      <option name="PROGRAM_PARAMETERS" value="Hello" />
+    <configuration name="DemoLinkedListVsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedListVsArrayList" />
+      <module name="Week3_LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayBasis.*" />
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoLinkedVSArrayGrafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedVSArrayGrafiek" />
+      <module name="Week3_LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo2022.demoArray" />
-      <module name="Week2_arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="demoArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demoArrayList" />
       <module name="Week2_arrays" />
@@ -163,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
+        <item itemvalue="Application.DemoLinkedListVsArrayList" />
         <item itemvalue="Application.ProductApp" />
         <item itemvalue="Application.demoArrayList" />
         <item itemvalue="Application.demoArg" />
-        <item itemvalue="Application.demoArray" />
-        <item itemvalue="Application.Array1" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +266,8 @@
       <workItem from="1667925192609" duration="2305000" />
       <workItem from="1668081734637" duration="602000" />
       <workItem from="1668177437650" duration="8000" />
-      <workItem from="1668501099114" duration="8606000" />
+      <workItem from="1668501099114" duration="9855000" />
+      <workItem from="1668783649574" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -368,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668509124503</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update 15 november 2022: Arrays">
+      <created>1668511998015</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511998015</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

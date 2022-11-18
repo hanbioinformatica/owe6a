@@ -20,7 +20,7 @@ class DemoLinkedListVsArrayList {
     public static void addElements(List l, int a) {
         rand = new Random(1000);
         for (int i = 0; i < a; i++) {
-            lijst.add(99, rand.nextInt(100));
+            lijst.add(0, rand.nextInt(100));
         }
       }
 
