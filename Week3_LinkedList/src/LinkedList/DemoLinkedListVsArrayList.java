@@ -74,7 +74,7 @@ class DemoLinkedListVsArrayList {
 
 
     public static void main(String[] args) {
-        //timeAdding();
+        timeAdding();
         timeGetting();
     }
 
