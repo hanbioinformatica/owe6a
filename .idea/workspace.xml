@@ -92,7 +92,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PokemonApp (1)">
+  <component name="RunManager" selected="Application.PokemonApp (2)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLinkedVSArrayGrafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedVSArrayGrafiek" />
-      <module name="Week3_LinkedList" />
+    <configuration name="PokemonApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokemonDemo.PokemonApp" />
+      <module name="Week2_arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="PokemonDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PokemonDemo.PokemonApp" />
       <module name="Week2_arrays" />
       <extension name="coverage">
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokemonApp (2)" />
         <item itemvalue="Application.PokemonApp (1)" />
         <item itemvalue="Application.PokemonApp" />
         <item itemvalue="Application.DemoArray" />
         <item itemvalue="Application.DemoLinkedListVsArrayList" />
-        <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
       </list>
     </recent_temporary>
   </component>

@@ -65,7 +65,7 @@ class Pokemon implements Comparable <Pokemon> {
     }
 
     public String toString(){
-        return naam+" snelheid:"+snelheid+" kracht: "+kracht+" level: "+level
+        return naam+" snelheid:"+snelheid+" kracht: "+kracht+" level: "+level;
     }
 
 
