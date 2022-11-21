@@ -1,13 +1,14 @@
 package PokemonDemo;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.LinkedList;
+
 
 public class PokemonApp {
 
     public static void main(String[] args) {
-        LinkedList<Pokemon> arrPok = new LinkedList<>();
+        ArrayList<Pokemon> arrPok = new ArrayList<>();
         arrPok.add(new Pokemon("Pikachu",100,70,1));
         arrPok.add(new Pokemon("Ditto",17,90,4));
         arrPok.add(new Pokemon("Baltasur",190,1000,2));
@@ -22,7 +23,7 @@ public class PokemonApp {
         // een alternatieve en moderne manier om op basis van een methode te sorteren
         //               ArrayList van Pokemon, Comparator.comparing(ObjectType Pokemon:: methode die een waaarde
         //                                                                  teruggeeft waarop vergeleken wordt
-        Collections.sort(arrPok, Comparator.comparing(Pokemon::getNaam));
+        Collections.sort(arrPok, Comparator.comparing(Pokemon::getLevel));
         System.out.println(arrPok);
 
     }
@@ -64,7 +65,7 @@ class Pokemon implements Comparable <Pokemon> {
     }
 
     public String toString(){
-        return naam+" snelheid:"+snelheid+" kracht: "+kracht;
+        return naam+" snelheid:"+snelheid+" kracht: "+kracht+" level: "+level
     }
 
 
