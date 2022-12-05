@@ -19,7 +19,7 @@ class DemoArray {
     static long startTime, endTime;
 
     public static void main(String[] args) {
-        lijst = new ArrayList<>();
+        lijst = new LinkedList<>();
 
         System.out.println("Maken en lezen van een array met een lengte van "+aantalElementen+" Integers");
 
@@ -43,7 +43,7 @@ class DemoArray {
     public static void addElements() {
         rand = new Random(1000);
         for (int i = 0; i < aantalElementen; i++) {
-            lijst.add(rand.nextInt(100));
+            lijst.add(0,rand.nextInt(100));
         }
     }
 
@@ -51,9 +51,7 @@ class DemoArray {
      * Ophalen van elementen in volgorde of omgekeerde volgorde
      */
     private static void getElements(){
-        for (Integer getal: lijst) {
-            int x = getal;
-        }
+        for (int i = aantalElementen-1; i > 0 ; i--) {       int x = lijst.get(i);    }
     }
 
     /**
