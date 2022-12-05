@@ -84,5 +84,4 @@ public final class Auto {
     public void setBouwjaar(int bouwjaar) {
         this.bouwjaar = bouwjaar;
     }
-
 }
