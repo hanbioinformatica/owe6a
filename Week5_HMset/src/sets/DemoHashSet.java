@@ -39,6 +39,7 @@ public class DemoHashSet {
     
     verschil2 = new HashSet<String>( groep2 );
     verschil2.removeAll( groep1 );
+
     
    
     System.out.println( "groep1:          " + groep1 );

@@ -25,7 +25,7 @@ public final class Auto {
     public int hashCode() {
         int hash = 3;
         //hash = 83 * hash + (this.eigenaar != null ? this.eigenaar.hashCode() : 0);
-        hash = 83 * hash + this.bouwjaar+this.merk.hashCode();
+        hash = 83 * hash + this.merk.hashCode()+this.kleur.hashCode();
 
         //hash = 83 * hash + this.pk;
         return hash;
@@ -38,7 +38,7 @@ public final class Auto {
 
     @Override
     public String toString() {
-        return eigenaar + " " + kleur + " bouwjaar: "+bouwjaar;
+        return eigenaar + " " + kleur + " bouwjaar: "+bouwjaar+" merk "+merk;
     }
 
     public String getEigenaar() {
