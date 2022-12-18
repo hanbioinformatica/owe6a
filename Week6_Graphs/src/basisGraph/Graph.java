@@ -252,11 +252,11 @@ public class Graph {
         G.addEdge("D", "E");
         G.addEdge("D", "G");
         G.addEdge("E", "G");
-        G.addVertex("H");
         G.addEdge("A", "H");
+        G.addVertex("I");
         
         // print out graph
-        //System.out.println(G);
+        System.out.println(G);
 
         // print out graph again by iterating over vertices and edges
         for (Vertex v : G.getVertices()) {
