@@ -1,4 +1,4 @@
-package old;
+package LiveDemoos.demo2022.Pizza;
 
 public class Schotel extends Product implements Comparable{
 

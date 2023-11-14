@@ -1,4 +1,4 @@
-package productDemo;
+package LiveDemoos.demo2022.productDemo;
 
 public class Product implements Comparable<Product>{
 

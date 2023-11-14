@@ -1,5 +1,5 @@
 
-package dna;
+package LiveDemoos.demo2022.dna;
 
 import java.util.*;
 

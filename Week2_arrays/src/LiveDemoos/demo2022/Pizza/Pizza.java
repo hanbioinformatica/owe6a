@@ -1,4 +1,4 @@
-package old;
+package LiveDemoos.demo2022.Pizza;
 
 public class Pizza extends Product implements Comparable {
 
@@ -44,7 +44,7 @@ public class Pizza extends Product implements Comparable {
 
     @Override
     public String toString() {
-        return "Pizza " + naam + " prijs " + prijs + " diameter " + diameter;
+        return "LiveDemoos/demo2022/Pizza " + naam + " prijs " + prijs + " diameter " + diameter;
     }
 
     @Override

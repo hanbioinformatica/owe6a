@@ -1,4 +1,4 @@
-package demo2022;
+package LiveDemoos.demo2022;
 
 public class demoArray {
 

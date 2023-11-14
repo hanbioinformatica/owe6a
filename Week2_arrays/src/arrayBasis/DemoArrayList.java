@@ -1,9 +1,7 @@
 package arrayBasis;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class DemoArrayList {
 
@@ -14,7 +12,7 @@ public class DemoArrayList {
         a_list.add("Apen");
         a_list.add("Noten");
         a_list.add("Miezen");
-        a_list.add("Pizza");
+        a_list.add("LiveDemoos/demo2022/Pizza");
 
         System.out.println(a_list);
 

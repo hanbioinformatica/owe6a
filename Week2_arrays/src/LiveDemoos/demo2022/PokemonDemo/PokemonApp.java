@@ -1,6 +1,5 @@
-package PokemonDemo;
+package LiveDemoos.demo2022.PokemonDemo;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
