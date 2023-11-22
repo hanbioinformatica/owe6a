@@ -21,6 +21,7 @@ class DemoLinkedListVsArrayList {
         rand = new Random(1000);
         for (int i = 0; i < a; i++) {
             lijst.add(0, rand.nextInt(100));
+
         }
       }
 

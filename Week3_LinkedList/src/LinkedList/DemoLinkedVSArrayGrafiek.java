@@ -22,13 +22,23 @@ import org.jfree.ui.RefineryUtilities;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 import static LinkedList.DemoLinkedListVsArrayList.addElements;
 
 
 public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
     public static XYSeries series = new XYSeries("Tijd data");
-    static List lijst = new LinkedList<Integer>();
+    static List lijst = new ArrayList<Integer>();
+    static Random rand;
+
+    public static void addElements(List l, int a) {
+        rand = new Random(1000);
+        for (int i = 0; i < a; i++) {
+            lijst.add(0,rand.nextInt(100));
+
+        }
+    }
 
 
     public static double tijdVoorToevoegen(int aantal){
@@ -36,8 +46,8 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
         addElements(lijst, aantal);
         long endTime = System.nanoTime();
         long tijd1 = endTime - startTime;
-        System.out.println("LinkedList"+aantal+" Tijd:" + (double) tijd1 / 1000000000 + " seconden");
-        return (double) tijd1 / 1000000000; //Tijd in seconden
+        System.out.println(String.format("ArrayList %d Tijd: %.9f seconden", aantal, (double) tijd1 / 1E9));
+        return (double) tijd1 / 1E9; //Tijd in seconden
     }
 
     /**
@@ -59,9 +69,9 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
 
         final XYSeriesCollection data = new XYSeriesCollection(series);
         final JFreeChart chart = ChartFactory.createXYLineChart(
-                "Big O()",
-                "data",
-                "tijd",
+                "Big O",
+                "data (x1000)",
+                "tijd (s)",
                 data,
                 PlotOrientation.VERTICAL,
                 true,
