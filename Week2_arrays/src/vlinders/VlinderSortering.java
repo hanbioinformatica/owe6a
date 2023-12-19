@@ -5,11 +5,12 @@ import Vervoersmiddelen.Auto;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedList;
 
 public class VlinderSortering {
 
     public static void main(String[] args) {
-        ArrayList<Vlinder> v_arr = new ArrayList<>();
+        LinkedList<Vlinder> v_arr = new LinkedList<>();
         v_arr.add(new Vlinder("rood",20,0.40f));
         v_arr.add(new Vlinder("blauw",10,0.22f));
         v_arr.add(new Vlinder("rood-zwart",30,0.22f));
@@ -20,7 +21,9 @@ public class VlinderSortering {
         Collections.sort(v_arr);
         System.out.println("Gesorteerde array");
         System.out.print(v_arr);
+
         Collections.sort(v_arr, Comparator.comparing(Vlinder::getGewicht));
+        System.out.println(v_arr);
 
     }
 

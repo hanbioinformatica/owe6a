@@ -1,12 +1,10 @@
 package boom;
 
-
-
 public class BoomDoorlopen {
   public static void main( String args[] ) {
     BinNode<String> root;
     BinNode<String> knoopB, knoopC, knoopD,
-                   knoopE, knoopF, knoopG;
+                    knoopE, knoopF, knoopG;
 
     // Maak eerst alle knopen
     root = new BinNode<String>( "A" );

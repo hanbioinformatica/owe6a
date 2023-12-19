@@ -5,8 +5,7 @@ import java.util.*;
 public class MaandenMetDagen {
 
     public static void main(String args[]) {
-
-        Map<String, Integer> map = new HashMap<String, Integer>();
+        Map<String, Integer> map = new HashMap<String, Integer>(12);
 
         // Vul de map
         map.put("januari", 31);

@@ -35,7 +35,7 @@ public class DemoLinkedVSArrayGrafiek extends ApplicationFrame {
     public static void addElements(List l, int a) {
         rand = new Random(1000);
         for (int i = 0; i < a; i++) {
-            lijst.add(0,rand.nextInt(100));
+            lijst.add(rand.nextInt(100));
 
         }
     }

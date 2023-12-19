@@ -49,7 +49,7 @@ public class BracketCheckerRewrite {
     }
 
     public static void main(String[] args) throws IOException {
-        String invoer = "{((7*2)5)*4}";
+        String invoer = "{ (Hello })";
         System.out.println(invoer);
         check(invoer);
         

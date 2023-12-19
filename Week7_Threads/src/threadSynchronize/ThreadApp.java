@@ -12,7 +12,7 @@ public class ThreadApp {
             try {
                 GeldOpname go = new GeldOpname(Integer.toString(i));
                 go.start();
-                //go.join();
+                go.join();
                 sleep((int) (Math.random() * 1000));
             } catch (InterruptedException ex) {
 

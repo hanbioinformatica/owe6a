@@ -31,7 +31,7 @@ public class BinNode<E> {
     return buffer.toString();
   }
   
-  private void preOrder() {
+  public void preOrder() {
     buffer.append( userObject.toString() );
     if( leftChild != null )
       leftChild.preOrder();

@@ -115,7 +115,7 @@ public class ThreadGUI extends javax.swing.JFrame {
         lijnenLijst.get(4).kleur = Color.pink;
         
         for (Lijn l : lijnenLijst) {
-            l.start();
+            l.run();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

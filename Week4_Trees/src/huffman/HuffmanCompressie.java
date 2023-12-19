@@ -192,8 +192,6 @@ public class HuffmanCompressie {
         createHuffMannTree(listHuffMannNodes);
         compressText();
         System.out.println(getBinaryData());
-
-        
         uncompressText();
     }
 }

@@ -22,16 +22,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 14 november 2023:&#10;Archiveren oude demoos">
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/Bericht.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/arrayBasis/DemoArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_arrays/src/vlinders/VlinderSortering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoArray.java" afterDir="false" />
+    <list default="true" id="0c95f01e-5dcf-4eaa-8808-f16f2f2c7fcd" name="Default Changelist" comment="Update 22 november 2023:&#10;Update arrays">
+      <change afterPath="$PROJECT_DIR$/Week4_Trees/src/BinNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4_Trees/src/BoomDoorlopen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedListVsArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_arrays/src/vlinders/VlinderSortering.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_arrays/src/vlinders/VlinderSortering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/BracketChecker/BracketCheckerRewrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_LinkedList/src/LinkedList/DemoLinkedVSArrayGrafiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedListVsArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/boom/BinNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/boom/BinNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/boom/BoomDoorlopen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/boom/BoomDoorlopen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/huffman/HuffmanCompressie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Trees/src/huffman/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Trees/src/huffman/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/HashMap/MaandenMetDagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/HashMap/MaandenMetDagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5_HMset/src/md5/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5_HMset/src/md5/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week7_Threads/src/threadGUI/ThreadGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week7_Threads/src/threadGUI/ThreadGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week7_Threads/src/threadSynchronize/ConcurrencyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week7_Threads/src/threadSynchronize/ConcurrencyProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week7_Threads/src/threadSynchronize/ThreadApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week7_Threads/src/threadSynchronize/ThreadApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/BracketChecker/BracketCheckerRewrite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3_LinkedList/LinkedList/DemoLinkedVSArrayGrafiek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BinNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/boom/BoomDoorlopen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4_Trees/huffman/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,27 +93,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "1.8.0_222",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8.0_222&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bgnmh/OneDrive - HAN/han/courses/jaar2/owe5/tentamen/kennistoets/2324/PROGJA10-toets-02 - herkansing/Bi5a_k&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_LinkedList/src/Ronald" />
@@ -117,7 +131,7 @@
       <recent name="pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VlinderSortering">
+  <component name="RunManager" selected="Application.Grafiek">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -131,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoArray" />
-      <module name="Week3_LinkedList" />
+    <configuration name="ConcurrencyProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadSynchronize.ConcurrencyProblem" />
+      <module name="Week7_Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="threadSynchronize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLinkedListVsArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedListVsArrayList" />
-      <module name="Week3_LinkedList" />
+    <configuration name="Grafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursie.Grafiek" />
+      <module name="Graphs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="recursie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLinkedVSArrayGrafiek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DemoLinkedVSArrayGrafiek" />
-      <module name="Week3_LinkedList" />
+    <configuration name="ShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dijkstra.ShortestPath" />
+      <module name="Graphs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VlinderSortering (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vlinders.VlinderSortering" />
-      <module name="Week2_arrays" />
+    <configuration name="ThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadSynchronize.ThreadApp" />
+      <module name="Week7_Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vlinders.*" />
+          <option name="PATTERN" value="threadSynchronize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VlinderSortering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vlinders.VlinderSortering" />
-      <module name="Week2_arrays" />
+    <configuration name="threads.ThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.ThreadApp" />
+      <module name="Week7_Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vlinders.*" />
+          <option name="PATTERN" value="threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VlinderSortering" />
-        <item itemvalue="Application.DemoLinkedVSArrayGrafiek" />
-        <item itemvalue="Application.DemoLinkedListVsArrayList" />
-        <item itemvalue="Application.DemoArray" />
-        <item itemvalue="Application.VlinderSortering (1)" />
+        <item itemvalue="Application.Grafiek" />
+        <item itemvalue="Application.ShortestPath" />
+        <item itemvalue="Application.ThreadApp" />
+        <item itemvalue="Application.ConcurrencyProblem" />
+        <item itemvalue="Application.threads.ThreadApp" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +322,16 @@
       <workItem from="1699972809583" duration="1388000" />
       <workItem from="1700052185829" duration="4453000" />
       <workItem from="1700207717660" duration="5010000" />
-      <workItem from="1700642502242" duration="3196000" />
+      <workItem from="1700642502242" duration="3636000" />
+      <workItem from="1700649229966" duration="5320000" />
+      <workItem from="1700762239975" duration="1216000" />
+      <workItem from="1700822044457" duration="1422000" />
+      <workItem from="1701245714644" duration="4424000" />
+      <workItem from="1701420034746" duration="585000" />
+      <workItem from="1702025677666" duration="6650000" />
+      <workItem from="1702463017509" duration="238000" />
+      <workItem from="1702641646901" duration="600000" />
+      <workItem from="1703012015325" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="Update 16 november 2020">
       <created>1605559545649</created>
@@ -486,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699973208804</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update 22 november 2023:&#10;Update arrays">
+      <option name="closed" value="true" />
+      <created>1700648506499</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700648506499</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +556,8 @@
     <MESSAGE value="Update 5 december 2022:&#10;HashMap en HashSet demo" />
     <MESSAGE value="Update 13 december 2022:&#10;aanvullingen Graph" />
     <MESSAGE value="Update 14 november 2023:&#10;Archiveren oude demoos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 14 november 2023:&#10;Archiveren oude demoos" />
+    <MESSAGE value="Update 22 november 2023:&#10;Update arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 22 november 2023:&#10;Update arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
